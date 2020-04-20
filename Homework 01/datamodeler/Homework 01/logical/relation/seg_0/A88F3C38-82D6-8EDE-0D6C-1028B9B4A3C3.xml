@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="COURSE - InSTRUCTOR" directorySegmentName="seg_0" id="A88F3C38-82D6-8EDE-0D6C-1028B9B4A3C3">
+<createdBy>ZZC</createdBy>
+<createdTime>2019-09-25 17:51:26 UTC</createdTime>
+<ownerDesignName>Homework 1</ownerDesignName>
+<engineerTo>
+<item key="F0D88C6C-C936-0FED-0D7C-D04CA7E72536" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<nameOnSource>taught by</nameOnSource>
+<nameOnTarget>teach</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>2422CA08-CBA6-DFA7-EB94-7C5C61988B7C</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>5613DD7D-43D5-7C7C-D77C-32D2C4FB8629</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="04AD92DF-7FE4-0EE8-B09C-C449E2D19C81" name="REGIONS">
+<createdBy>ZZC</createdBy>
+<createdTime>2020-02-25 20:41:04 UTC</createdTime>
+<generatorID>F9558392-70A3-836C-0277-BF98534DEE97</generatorID>
+<ownerDesignName>Homework 02</ownerDesignName>
+<engineerTo>
+<item key="CE2D236B-D4CB-2A91-5AEF-C9F27AB47FB6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="REGION ID" id="FFC04BBB-1742-2225-FBBC-7396980CBD96">
+<createdBy>ZZC</createdBy>
+<createdTime>2020-02-25 20:41:04 UTC</createdTime>
+<generatorID>1CB3059B-05C7-C5FE-BFED-A286A4B21230</generatorID>
+<ownerDesignName>Homework 02</ownerDesignName>
+<engineerTo>
+<item key="CE2D236B-D4CB-2A91-5AEF-C9F27AB47FB6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="REGION NAME" id="118B3E38-A477-9A82-4599-699A8F2CB825">
+<createdBy>ZZC</createdBy>
+<createdTime>2020-02-25 20:41:04 UTC</createdTime>
+<generatorID>9AA2AB09-1CF4-A6FC-CD4D-73A0C12FEC80</generatorID>
+<ownerDesignName>Homework 02</ownerDesignName>
+<engineerTo>
+<item key="CE2D236B-D4CB-2A91-5AEF-C9F27AB47FB6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 BYTE</dataTypeSize>
+<ownDataTypeParameters>25 BYTE,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6ACC4B70-559B-2748-942E-DC794F459D57" name="REG ID PK">
+<createdBy>ZZC</createdBy>
+<createdTime>2020-02-25 20:41:04 UTC</createdTime>
+<generatorID>8DE1499D-42A0-BABD-E2C2-F4C8C0F42010</generatorID>
+<ownerDesignName>Homework 02</ownerDesignName>
+<engineerTo>
+<item key="CE2D236B-D4CB-2A91-5AEF-C9F27AB47FB6" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FFC04BBB-1742-2225-FBBC-7396980CBD96</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

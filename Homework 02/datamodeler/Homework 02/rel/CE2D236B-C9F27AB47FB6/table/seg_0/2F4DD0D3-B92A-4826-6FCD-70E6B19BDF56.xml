@@ -1,0 +1,143 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2F4DD0D3-B92A-4826-6FCD-70E6B19BDF56" schemaObject="5B84FD19-95C4-E83D-6271-995B75E03B62" name="DEPARTMENTS">
+<sourceConnName>zzha1</sourceConnName>
+<sourceObjSchema>ZZHA1_ADMIN</sourceObjSchema>
+<sourceObjName>DEPARTMENTS</sourceObjName>
+<createdBy>ZZC</createdBy>
+<createdTime>2020-02-25 20:29:20 UTC</createdTime>
+<ownerDesignName>Homework 02</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="DEPARTMENT_ID" id="2421C9E3-C223-1761-91DB-F29C883916FC">
+<sourceConnName>zzha1</sourceConnName>
+<sourceObjSchema>DEPARTMENTS</sourceObjSchema>
+<sourceObjName>DEPARTMENT_ID</sourceObjName>
+<createdBy>ZZC</createdBy>
+<createdTime>2020-02-25 20:29:20 UTC</createdTime>
+<ownerDesignName>Homework 02</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DEPARTMENT_NAME" id="CA028F75-87EE-6AF1-D441-7F1B24B3F949">
+<sourceConnName>zzha1</sourceConnName>
+<sourceObjSchema>DEPARTMENTS</sourceObjSchema>
+<sourceObjName>DEPARTMENT_NAME</sourceObjName>
+<createdBy>ZZC</createdBy>
+<createdTime>2020-02-25 20:29:20 UTC</createdTime>
+<ownerDesignName>Homework 02</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>DEPT_NAME_NN</notNullConstraintName>
+</Column>
+<Column name="MANAGER_ID" id="155F8F15-0D24-41DA-19B0-08F74866B4BF">
+<sourceConnName>zzha1</sourceConnName>
+<sourceObjSchema>DEPARTMENTS</sourceObjSchema>
+<sourceObjName>MANAGER_ID</sourceObjName>
+<createdBy>ZZC</createdBy>
+<createdTime>2020-02-25 20:29:20 UTC</createdTime>
+<ownerDesignName>Homework 02</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,6,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1B4BD575-E745-E162-718A-A4F1F6DA0395" referredColumn="42F14421-E4A9-0934-3FBD-3644DEF4F478"/>
+</associations>
+</Column>
+<Column name="LOCATION_ID" id="368D28ED-3698-4ADC-AB5A-B9D9C3A76181">
+<sourceConnName>zzha1</sourceConnName>
+<sourceObjSchema>DEPARTMENTS</sourceObjSchema>
+<sourceObjName>LOCATION_ID</sourceObjName>
+<createdBy>ZZC</createdBy>
+<createdTime>2020-02-25 20:29:20 UTC</createdTime>
+<ownerDesignName>Homework 02</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8B8A6F83-8FC8-3373-D748-42E3D7BF25D2" referredColumn="056A6FC6-E4D4-DFE7-58CC-8CC589170FBB"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5EED4DF0-23DC-732C-216F-999B27F211C6" name="DEPT_ID_PK">
+<sourceConnName>zzha1</sourceConnName>
+<sourceObjSchema>ZZHA1_ADMIN</sourceObjSchema>
+<sourceObjName>DEPT_ID_PK</sourceObjName>
+<createdBy>ZZC</createdBy>
+<createdTime>2020-02-25 20:29:22 UTC</createdTime>
+<ownerDesignName>Homework 02</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2421C9E3-C223-1761-91DB-F29C883916FC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DC095140-33B5-9537-5D4D-8EF7F0C14C7C" schemaObject="5B84FD19-95C4-E83D-6271-995B75E03B62" name="DEPT_ID_PK">
+<sourceConnName>zzha1</sourceConnName>
+<sourceObjSchema>ZZHA1_ADMIN</sourceObjSchema>
+<sourceObjName>DEPT_ID_PK</sourceObjName>
+<createdBy>ZZC</createdBy>
+<createdTime>2020-02-25 20:29:22 UTC</createdTime>
+<ownerDesignName>Homework 02</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2421C9E3-C223-1761-91DB-F29C883916FC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="58AC4BBD-43AE-B41A-4BF6-CAA58F863989" schemaObject="5B84FD19-95C4-E83D-6271-995B75E03B62" name="DEPT_LOCATION_IX">
+<sourceConnName>zzha1</sourceConnName>
+<sourceObjSchema>ZZHA1_ADMIN</sourceObjSchema>
+<sourceObjName>DEPT_LOCATION_IX</sourceObjName>
+<createdBy>ZZC</createdBy>
+<createdTime>2020-02-25 20:29:22 UTC</createdTime>
+<ownerDesignName>Homework 02</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="368D28ED-3698-4ADC-AB5A-B9D9C3A76181"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="45D0152E-285F-0C98-6C70-60DA0CADBCF2" name="DEPT_LOC_FK">
+<createdBy>ZZC</createdBy>
+<createdTime>2020-02-25 20:29:23 UTC</createdTime>
+<ownerDesignName>Homework 02</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="368D28ED-3698-4ADC-AB5A-B9D9C3A76181"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1F142A48-B7FA-29AD-98F0-BD84B10E1B4E" name="DEPT_MGR_FK">
+<createdBy>ZZC</createdBy>
+<createdTime>2020-02-25 20:29:23 UTC</createdTime>
+<ownerDesignName>Homework 02</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="155F8F15-0D24-41DA-19B0-08F74866B4BF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

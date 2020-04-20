@@ -1,0 +1,6 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BIDocument class="oracle.dbtools.crest.model.businessinfo.BIDocument" name="Doc_1" directorySegmentName="seg_0" id="A00A25D1-6E4D-A561-DF53-D0F940B0BA66">
+<createdBy>ZZC</createdBy>
+<createdTime>2019-09-25 13:55:20 UTC</createdTime>
+<ownerDesignName>p2</ownerDesignName>
+</BIDocument>

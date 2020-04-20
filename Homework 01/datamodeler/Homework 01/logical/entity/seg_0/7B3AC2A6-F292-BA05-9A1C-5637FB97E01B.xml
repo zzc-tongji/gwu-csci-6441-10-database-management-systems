@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7B3AC2A6-F292-BA05-9A1C-5637FB97E01B" name="COMPANY">
+<createdBy>ZZC</createdBy>
+<createdTime>2019-09-25 18:28:41 UTC</createdTime>
+<ownerDesignName>Homework 1</ownerDesignName>
+<engineerTo>
+<item key="F0D88C6C-C936-0FED-0D7C-D04CA7E72536" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="497E3D1F-6B8D-2833-C1DF-65F8163DBA54">
+<createdBy>ZZC</createdBy>
+<createdTime>2019-09-25 18:28:49 UTC</createdTime>
+<ownerDesignName>Homework 1</ownerDesignName>
+<engineerTo>
+<item key="F0D88C6C-C936-0FED-0D7C-D04CA7E72536" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Name" id="79C5235A-A13C-9BC0-A730-4C9DD9AC5077">
+<createdBy>ZZC</createdBy>
+<createdTime>2019-09-25 18:28:53 UTC</createdTime>
+<ownerDesignName>Homework 1</ownerDesignName>
+<engineerTo>
+<item key="F0D88C6C-C936-0FED-0D7C-D04CA7E72536" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Address" id="FA1B07F6-2B0C-6F39-8C25-9C81BEEC9833">
+<createdBy>ZZC</createdBy>
+<createdTime>2019-09-25 18:28:56 UTC</createdTime>
+<ownerDesignName>Homework 1</ownerDesignName>
+<engineerTo>
+<item key="F0D88C6C-C936-0FED-0D7C-D04CA7E72536" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Business Type" id="49A1F6DB-A6DB-C26E-F592-485F61CC2D11">
+<createdBy>ZZC</createdBy>
+<createdTime>2019-09-25 18:28:59 UTC</createdTime>
+<ownerDesignName>Homework 1</ownerDesignName>
+<engineerTo>
+<item key="F0D88C6C-C936-0FED-0D7C-D04CA7E72536" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="30DC237D-E2BE-651F-C246-C1DF25C4542B" name="COMPANY PK">
+<createdBy>ZZC</createdBy>
+<createdTime>2019-09-25 18:28:52 UTC</createdTime>
+<ownerDesignName>Homework 1</ownerDesignName>
+<engineerTo>
+<item key="F0D88C6C-C936-0FED-0D7C-D04CA7E72536" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>497E3D1F-6B8D-2833-C1DF-65F8163DBA54</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

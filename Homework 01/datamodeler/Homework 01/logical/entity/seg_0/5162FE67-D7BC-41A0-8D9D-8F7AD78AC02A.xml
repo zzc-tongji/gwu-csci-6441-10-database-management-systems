@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5162FE67-D7BC-41A0-8D9D-8F7AD78AC02A" name="CUSTOMER">
+<createdBy>ZZC</createdBy>
+<createdTime>2019-09-25 16:11:41 UTC</createdTime>
+<ownerDesignName>Homework 1</ownerDesignName>
+<engineerTo>
+<item key="F0D88C6C-C936-0FED-0D7C-D04CA7E72536" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Customer ID" id="62142E0E-360F-A35A-D617-DEBF4EC42E3B">
+<createdBy>ZZC</createdBy>
+<createdTime>2019-09-25 17:28:43 UTC</createdTime>
+<ownerDesignName>Homework 1</ownerDesignName>
+<engineerTo>
+<item key="F0D88C6C-C936-0FED-0D7C-D04CA7E72536" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Name" id="63FD3521-F2F9-539C-9693-CFE673CC1615">
+<createdBy>ZZC</createdBy>
+<createdTime>2019-09-25 16:11:47 UTC</createdTime>
+<ownerDesignName>Homework 1</ownerDesignName>
+<engineerTo>
+<item key="F0D88C6C-C936-0FED-0D7C-D04CA7E72536" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Street" id="3EBA831A-79F2-B47B-7A24-F5946553DF2D">
+<createdBy>ZZC</createdBy>
+<createdTime>2019-09-25 16:11:51 UTC</createdTime>
+<ownerDesignName>Homework 1</ownerDesignName>
+<engineerTo>
+<item key="F0D88C6C-C936-0FED-0D7C-D04CA7E72536" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="State" id="C20D5EAA-29E8-7BC0-36BB-2ED438EF1F8E">
+<createdBy>ZZC</createdBy>
+<createdTime>2019-09-25 16:11:57 UTC</createdTime>
+<ownerDesignName>Homework 1</ownerDesignName>
+<engineerTo>
+<item key="F0D88C6C-C936-0FED-0D7C-D04CA7E72536" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="City" id="D160E8AA-E27A-4402-62C3-F1C401982D16">
+<createdBy>ZZC</createdBy>
+<createdTime>2019-09-25 16:11:54 UTC</createdTime>
+<ownerDesignName>Homework 1</ownerDesignName>
+<engineerTo>
+<item key="F0D88C6C-C936-0FED-0D7C-D04CA7E72536" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Postal Code" id="A025BA20-D688-9F23-B889-0A7A75B294A3">
+<createdBy>ZZC</createdBy>
+<createdTime>2019-09-25 16:11:59 UTC</createdTime>
+<ownerDesignName>Homework 1</ownerDesignName>
+<engineerTo>
+<item key="F0D88C6C-C936-0FED-0D7C-D04CA7E72536" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Phone Number" id="BFC1A80D-9AE6-BB60-3E50-CE234B39EE8D">
+<createdBy>ZZC</createdBy>
+<createdTime>2019-09-25 16:12:05 UTC</createdTime>
+<ownerDesignName>Homework 1</ownerDesignName>
+<engineerTo>
+<item key="F0D88C6C-C936-0FED-0D7C-D04CA7E72536" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="08DCD069-5130-D04E-A6EE-571081F69BD2" name="CUSTOMER PK">
+<createdBy>ZZC</createdBy>
+<createdTime>2019-09-25 17:28:56 UTC</createdTime>
+<ownerDesignName>Homework 1</ownerDesignName>
+<engineerTo>
+<item key="F0D88C6C-C936-0FED-0D7C-D04CA7E72536" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>62142E0E-360F-A35A-D617-DEBF4EC42E3B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,126 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F32AF742-EAA5-93D4-75D0-AFB2ACCB6E6C" name="RESERVATION">
+<createdBy>ZZC</createdBy>
+<createdTime>2019-09-25 16:16:56 UTC</createdTime>
+<ownerDesignName>Homework 1</ownerDesignName>
+<engineerTo>
+<item key="F0D88C6C-C936-0FED-0D7C-D04CA7E72536" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Hotel" id="3428F03E-D2ED-80DF-39B1-0A3926350EB8">
+<createdBy>ZZC</createdBy>
+<createdTime>2019-09-25 16:19:46 UTC</createdTime>
+<ownerDesignName>Homework 1</ownerDesignName>
+<engineerTo>
+<item key="F0D88C6C-C936-0FED-0D7C-D04CA7E72536" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Guest" id="C80B2C83-E031-C5F7-CAFF-714A8E3B0215">
+<createdBy>ZZC</createdBy>
+<createdTime>2019-09-25 16:19:51 UTC</createdTime>
+<ownerDesignName>Homework 1</ownerDesignName>
+<engineerTo>
+<item key="F0D88C6C-C936-0FED-0D7C-D04CA7E72536" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Room" id="EA8EC289-3D91-07A1-85FB-AA5EC6183B14">
+<createdBy>ZZC</createdBy>
+<createdTime>2019-09-25 16:19:57 UTC</createdTime>
+<ownerDesignName>Homework 1</ownerDesignName>
+<engineerTo>
+<item key="F0D88C6C-C936-0FED-0D7C-D04CA7E72536" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Date of Stay" id="F0103189-443D-5E84-498E-9BB12792189B">
+<createdBy>ZZC</createdBy>
+<createdTime>2019-09-25 16:20:00 UTC</createdTime>
+<ownerDesignName>Homework 1</ownerDesignName>
+<engineerTo>
+<item key="F0D88C6C-C936-0FED-0D7C-D04CA7E72536" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Price" id="368507C9-13A9-E4AC-4F21-7BBCA1C7727B">
+<createdBy>ZZC</createdBy>
+<createdTime>2019-09-25 16:20:04 UTC</createdTime>
+<ownerDesignName>Homework 1</ownerDesignName>
+<engineerTo>
+<item key="F0D88C6C-C936-0FED-0D7C-D04CA7E72536" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Guest ID" id="CF461856-D04C-6DF7-F0D7-4C4A7420A165">
+<createdBy>ZZC</createdBy>
+<createdTime>2019-09-25 17:31:51 UTC</createdTime>
+<generatorID>2E4318F4-3334-29F1-0760-DF384461CD37</generatorID>
+<ownerDesignName>Homework 1</ownerDesignName>
+<engineerTo>
+<item key="F0D88C6C-C936-0FED-0D7C-D04CA7E72536" value="true"/>
+</engineerTo>
+<referedAttribute>E5ABBA34-C382-6778-FC80-2EF122468926</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Room ID" id="CCEF4527-911F-2883-C900-2AA25252BB32">
+<createdBy>ZZC</createdBy>
+<createdTime>2019-09-25 17:32:07 UTC</createdTime>
+<generatorID>E7FE9558-57B8-5DEA-B48D-8781F1E3CD70</generatorID>
+<ownerDesignName>Homework 1</ownerDesignName>
+<engineerTo>
+<item key="F0D88C6C-C936-0FED-0D7C-D04CA7E72536" value="true"/>
+</engineerTo>
+<referedAttribute>9B813104-137E-C0AA-F87F-812292A4141E</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Hotel ID" id="B8D52A93-A0FC-D39A-8580-10D38C91C1EB">
+<createdBy>ZZC</createdBy>
+<createdTime>2019-09-25 17:33:42 UTC</createdTime>
+<generatorID>E7FE9558-57B8-5DEA-B48D-8781F1E3CD70</generatorID>
+<ownerDesignName>Homework 1</ownerDesignName>
+<engineerTo>
+<item key="F0D88C6C-C936-0FED-0D7C-D04CA7E72536" value="true"/>
+</engineerTo>
+<referedAttribute>6DADF3AB-0FDC-28A9-0AB3-522B2A7F6748</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8CB297FE-7D68-61E7-A26E-97157C3B017A" name="RESERVATION PK">
+<createdBy>ZZC</createdBy>
+<createdTime>2019-09-25 17:32:18 UTC</createdTime>
+<ownerDesignName>Homework 1</ownerDesignName>
+<engineerTo>
+<item key="F0D88C6C-C936-0FED-0D7C-D04CA7E72536" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CCEF4527-911F-2883-C900-2AA25252BB32</attributeRef>
+<attributeRef>B8D52A93-A0FC-D39A-8580-10D38C91C1EB</attributeRef>
+<attributeRef>CF461856-D04C-6DF7-F0D7-4C4A7420A165</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="EVENT - COMMENT" directorySegmentName="seg_0" id="A0802DFA-8C1C-E87C-B1A2-3D29DC1A0BC3">
+<createdBy>ZZC</createdBy>
+<createdTime>2019-09-25 18:44:19 UTC</createdTime>
+<ownerDesignName>Homework 1</ownerDesignName>
+<engineerTo>
+<item key="F0D88C6C-C936-0FED-0D7C-D04CA7E72536" value="true"/>
+</engineerTo>
+<sourcePk>ACC6C58B-40CA-37A5-C56A-302B5FE3705B</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>gather</nameOnSource>
+<nameOnTarget>gathered for</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B60C18A8-F5CF-0BB8-BB28-0F36BD6E3760</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>72114E6E-8D17-988A-F59B-8E753D12488D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

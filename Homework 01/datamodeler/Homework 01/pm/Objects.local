@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.process.ProcessModel>
+   <object objectType="Event" objectID="FBFD12C6-EE0C-11D6-4AB9-1AF9CEE9DB56" name="Customer fills out Membership Form" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.process.Event" propertyParentId="4443A187-542B-9941-1BB5-78F6A47E80DA" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Event" objectID="3109E590-DFC3-A987-A21C-A1E3470D29E9" name="New Membership Information" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.process.Event" propertyParentId="4443A187-542B-9941-1BB5-78F6A47E80DA" propertySourceId="" propertyTargetId=""/>
+   <object objectType="InfoStore" objectID="6756626E-7644-9BCF-C797-50968C007BF9" name="CRM System" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.process.InfoStore" propertyParentId="4443A187-542B-9941-1BB5-78F6A47E80DA" propertySourceId="" propertyTargetId=""/>
+   <object objectType="InfoStore" objectID="86C20F9F-3196-0BAA-3E7A-6511389146F5" name="Membership" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.process.InfoStore" propertyParentId="4443A187-542B-9941-1BB5-78F6A47E80DA" propertySourceId="" propertyTargetId=""/>
+   <object objectType="InfoStore" objectID="887ED597-5946-F5FE-3206-1C6B2234A127" name="Membership Info" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.process.InfoStore" propertyParentId="4443A187-542B-9941-1BB5-78F6A47E80DA" propertySourceId="" propertyTargetId=""/>
+   <object objectType="TransformationPackage" objectID="99E81B41-C2AA-E7D2-AC14-449DD50A6675" name="TransformationPackage_1" seqName="" propertyClassName="oracle.dbtools.crest.model.design.process.TransformationPackage" propertyParentId="4443A187-542B-9941-1BB5-78F6A47E80DA" propertySourceId="" propertyTargetId=""/>
+</oracle.dbtools.crest.model.design.process.ProcessModel>

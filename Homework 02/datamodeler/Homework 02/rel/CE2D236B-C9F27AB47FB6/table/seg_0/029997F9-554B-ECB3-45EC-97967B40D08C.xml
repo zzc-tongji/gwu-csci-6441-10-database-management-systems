@@ -1,0 +1,208 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="029997F9-554B-ECB3-45EC-97967B40D08C" schemaObject="5B84FD19-95C4-E83D-6271-995B75E03B62" name="JOB_HISTORY">
+<sourceConnName>zzha1</sourceConnName>
+<sourceObjSchema>ZZHA1_ADMIN</sourceObjSchema>
+<sourceObjName>JOB_HISTORY</sourceObjName>
+<createdBy>ZZC</createdBy>
+<createdTime>2020-02-25 20:29:20 UTC</createdTime>
+<ownerDesignName>Homework 02</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="EMPLOYEE_ID" id="1A56DAB6-4231-3409-8BA4-803C3FF0EA2D">
+<sourceConnName>zzha1</sourceConnName>
+<sourceObjSchema>JOB_HISTORY</sourceObjSchema>
+<sourceObjName>EMPLOYEE_ID</sourceObjName>
+<createdBy>ZZC</createdBy>
+<createdTime>2020-02-25 20:29:21 UTC</createdTime>
+<ownerDesignName>Homework 02</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,6,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>JHIST_EMPLOYEE_NN</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="398A9E87-564C-061D-A8CF-9D42E36202E3" referredColumn="42F14421-E4A9-0934-3FBD-3644DEF4F478"/>
+</associations>
+</Column>
+<Column name="START_DATE" id="91754BBE-FF49-A0B1-B7FB-A427950C8565">
+<sourceConnName>zzha1</sourceConnName>
+<sourceObjSchema>JOB_HISTORY</sourceObjSchema>
+<sourceObjName>START_DATE</sourceObjName>
+<createdBy>ZZC</createdBy>
+<createdTime>2020-02-25 20:29:21 UTC</createdTime>
+<ownerDesignName>Homework 02</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>JHIST_START_DATE_NN</notNullConstraintName>
+</Column>
+<Column name="END_DATE" id="9ECC0030-4E3F-2C6F-3970-8FBEBA48BBBC">
+<sourceConnName>zzha1</sourceConnName>
+<sourceObjSchema>JOB_HISTORY</sourceObjSchema>
+<sourceObjName>END_DATE</sourceObjName>
+<createdBy>ZZC</createdBy>
+<createdTime>2020-02-25 20:29:21 UTC</createdTime>
+<ownerDesignName>Homework 02</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>JHIST_END_DATE_NN</notNullConstraintName>
+</Column>
+<Column name="JOB_ID" id="D731014F-067F-6A91-66FC-73FBDE541A91">
+<sourceConnName>zzha1</sourceConnName>
+<sourceObjSchema>JOB_HISTORY</sourceObjSchema>
+<sourceObjName>JOB_ID</sourceObjName>
+<createdBy>ZZC</createdBy>
+<createdTime>2020-02-25 20:29:21 UTC</createdTime>
+<ownerDesignName>Homework 02</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>JHIST_JOB_NN</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="522895D9-CECC-7122-4C81-D57DC6273D6F" referredColumn="42082A73-C021-25AE-78BF-9EB0D55ECD38"/>
+</associations>
+</Column>
+<Column name="DEPARTMENT_ID" id="3C0FEF86-B3AE-21EC-D715-455E02D35E8E">
+<sourceConnName>zzha1</sourceConnName>
+<sourceObjSchema>JOB_HISTORY</sourceObjSchema>
+<sourceObjName>DEPARTMENT_ID</sourceObjName>
+<createdBy>ZZC</createdBy>
+<createdTime>2020-02-25 20:29:21 UTC</createdTime>
+<ownerDesignName>Homework 02</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7BCC94AE-8425-952B-4649-5C8915827C01" referredColumn="2421C9E3-C223-1761-91DB-F29C883916FC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="67B6E742-DA6A-8F4A-3B24-D122D4E2E0BA" name="JHIST_EMP_ID_ST_DATE_PK">
+<sourceConnName>zzha1</sourceConnName>
+<sourceObjSchema>ZZHA1_ADMIN</sourceObjSchema>
+<sourceObjName>JHIST_EMP_ID_ST_DATE_PK</sourceObjName>
+<createdBy>ZZC</createdBy>
+<createdTime>2020-02-25 20:29:22 UTC</createdTime>
+<ownerDesignName>Homework 02</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1A56DAB6-4231-3409-8BA4-803C3FF0EA2D"/>
+<colUsage columnID="91754BBE-FF49-A0B1-B7FB-A427950C8565"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6C5C4CC6-AA89-AD09-47F6-53245044FFF9" schemaObject="5B84FD19-95C4-E83D-6271-995B75E03B62" name="JHIST_DEPARTMENT_IX">
+<sourceConnName>zzha1</sourceConnName>
+<sourceObjSchema>ZZHA1_ADMIN</sourceObjSchema>
+<sourceObjName>JHIST_DEPARTMENT_IX</sourceObjName>
+<createdBy>ZZC</createdBy>
+<createdTime>2020-02-25 20:29:22 UTC</createdTime>
+<ownerDesignName>Homework 02</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3C0FEF86-B3AE-21EC-D715-455E02D35E8E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BD2D7150-68A4-617C-92A3-8FC96EE5684C" schemaObject="5B84FD19-95C4-E83D-6271-995B75E03B62" name="JHIST_EMPLOYEE_IX">
+<sourceConnName>zzha1</sourceConnName>
+<sourceObjSchema>ZZHA1_ADMIN</sourceObjSchema>
+<sourceObjName>JHIST_EMPLOYEE_IX</sourceObjName>
+<createdBy>ZZC</createdBy>
+<createdTime>2020-02-25 20:29:22 UTC</createdTime>
+<ownerDesignName>Homework 02</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1A56DAB6-4231-3409-8BA4-803C3FF0EA2D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8155933F-768E-13DE-498B-DBCEC5250827" schemaObject="5B84FD19-95C4-E83D-6271-995B75E03B62" name="JHIST_EMP_ID_ST_DATE_PK">
+<sourceConnName>zzha1</sourceConnName>
+<sourceObjSchema>ZZHA1_ADMIN</sourceObjSchema>
+<sourceObjName>JHIST_EMP_ID_ST_DATE_PK</sourceObjName>
+<createdBy>ZZC</createdBy>
+<createdTime>2020-02-25 20:29:22 UTC</createdTime>
+<ownerDesignName>Homework 02</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1A56DAB6-4231-3409-8BA4-803C3FF0EA2D"/>
+<colUsage columnID="91754BBE-FF49-A0B1-B7FB-A427950C8565"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F264487B-1E10-5D91-4FCC-87F1A4F15D3E" schemaObject="5B84FD19-95C4-E83D-6271-995B75E03B62" name="JHIST_JOB_IX">
+<sourceConnName>zzha1</sourceConnName>
+<sourceObjSchema>ZZHA1_ADMIN</sourceObjSchema>
+<sourceObjName>JHIST_JOB_IX</sourceObjName>
+<createdBy>ZZC</createdBy>
+<createdTime>2020-02-25 20:29:22 UTC</createdTime>
+<ownerDesignName>Homework 02</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D731014F-067F-6A91-66FC-73FBDE541A91"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AB8EAD5F-5D00-4D2C-2CAB-66CD9A8A36FB" name="JHIST_DEPT_FK">
+<createdBy>ZZC</createdBy>
+<createdTime>2020-02-25 20:29:23 UTC</createdTime>
+<ownerDesignName>Homework 02</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3C0FEF86-B3AE-21EC-D715-455E02D35E8E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BAF64C99-AC40-E588-DA8A-1BB0EAEDE830" name="JHIST_EMP_FK">
+<createdBy>ZZC</createdBy>
+<createdTime>2020-02-25 20:29:23 UTC</createdTime>
+<ownerDesignName>Homework 02</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1A56DAB6-4231-3409-8BA4-803C3FF0EA2D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FFC2A03B-DFDE-F16F-34F9-5ED111CBF0AE" name="JHIST_JOB_FK">
+<createdBy>ZZC</createdBy>
+<createdTime>2020-02-25 20:29:23 UTC</createdTime>
+<ownerDesignName>Homework 02</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D731014F-067F-6A91-66FC-73FBDE541A91"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="JHIST_DATE_INTERVAL" directorySegmentName="seg_0" id="109A4038-7B03-4E2D-A6E4-7604E9D08AA1">
+<sourceConnName>zzha1</sourceConnName>
+<sourceObjSchema>ZZHA1_ADMIN</sourceObjSchema>
+<sourceObjName>JHIST_DATE_INTERVAL</sourceObjName>
+<createdBy>ZZC</createdBy>
+<createdTime>2020-02-25 20:29:22 UTC</createdTime>
+<ownerDesignName>Homework 02</ownerDesignName>
+<rule><![CDATA[end_date > start_date]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

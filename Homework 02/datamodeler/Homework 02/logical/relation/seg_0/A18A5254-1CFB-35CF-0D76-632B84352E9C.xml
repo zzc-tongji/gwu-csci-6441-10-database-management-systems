@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="COUNTR_REG_FK" directorySegmentName="seg_0" id="A18A5254-1CFB-35CF-0D76-632B84352E9C">
+<createdBy>ZZC</createdBy>
+<createdTime>2020-02-25 20:41:04 UTC</createdTime>
+<generatorID>518E10FE-C0CE-EFCD-77A2-4EC6933D5D51</generatorID>
+<ownerDesignName>Homework 02</ownerDesignName>
+<engineerTo>
+<item key="CE2D236B-D4CB-2A91-5AEF-C9F27AB47FB6" value="true"/>
+</engineerTo>
+<sourcePk>6ACC4B70-559B-2748-942E-DC794F459D57</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>04AD92DF-7FE4-0EE8-B09C-C449E2D19C81</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>68CA168F-7810-E600-7E6E-7261A15B1ADF</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

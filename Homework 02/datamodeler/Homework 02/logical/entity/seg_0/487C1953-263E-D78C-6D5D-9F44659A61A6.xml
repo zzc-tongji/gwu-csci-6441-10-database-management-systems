@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="487C1953-263E-D78C-6D5D-9F44659A61A6" name="JOB HISTORY">
+<createdBy>ZZC</createdBy>
+<createdTime>2020-02-25 20:41:04 UTC</createdTime>
+<generatorID>029997F9-554B-ECB3-45EC-97967B40D08C</generatorID>
+<ownerDesignName>Homework 02</ownerDesignName>
+<engineerTo>
+<item key="CE2D236B-D4CB-2A91-5AEF-C9F27AB47FB6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="EMPLOYEE ID" id="8B9279D7-9F18-D6F3-4B89-DFDA567AD796">
+<createdBy>ZZC</createdBy>
+<createdTime>2020-02-25 20:41:04 UTC</createdTime>
+<generatorID>BCEFCB01-61FA-BD89-8750-E63E7C528545</generatorID>
+<ownerDesignName>Homework 02</ownerDesignName>
+<engineerTo>
+<item key="CE2D236B-D4CB-2A91-5AEF-C9F27AB47FB6" value="true"/>
+</engineerTo>
+<referedAttribute>E36325A9-05BD-48E4-0228-306035370F50</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="START DATE" id="6D0C2E6D-7711-B890-C966-5CC62F8C05CB">
+<createdBy>ZZC</createdBy>
+<createdTime>2020-02-25 20:41:04 UTC</createdTime>
+<generatorID>91754BBE-FF49-A0B1-B7FB-A427950C8565</generatorID>
+<ownerDesignName>Homework 02</ownerDesignName>
+<engineerTo>
+<item key="CE2D236B-D4CB-2A91-5AEF-C9F27AB47FB6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="END DATE" id="8FDA337B-5EFF-2129-FF33-ED20613CFBE6">
+<createdBy>ZZC</createdBy>
+<createdTime>2020-02-25 20:41:04 UTC</createdTime>
+<generatorID>9ECC0030-4E3F-2C6F-3970-8FBEBA48BBBC</generatorID>
+<ownerDesignName>Homework 02</ownerDesignName>
+<engineerTo>
+<item key="CE2D236B-D4CB-2A91-5AEF-C9F27AB47FB6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="JOB ID" id="47703B2D-BDC9-43F6-B91D-54AB641B3514">
+<createdBy>ZZC</createdBy>
+<createdTime>2020-02-25 20:41:04 UTC</createdTime>
+<generatorID>1C13F411-727A-BB7E-F3EE-3F03AA01D638</generatorID>
+<ownerDesignName>Homework 02</ownerDesignName>
+<engineerTo>
+<item key="CE2D236B-D4CB-2A91-5AEF-C9F27AB47FB6" value="true"/>
+</engineerTo>
+<referedAttribute>D64F22B0-FBBC-3857-E880-8879953E4DB1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DEPARTMENT ID" id="43266D91-CDE7-6F09-7761-6B49664327A0">
+<createdBy>ZZC</createdBy>
+<createdTime>2020-02-25 20:41:04 UTC</createdTime>
+<generatorID>FCCBAC99-7C27-8CBA-E871-1B529011200B</generatorID>
+<ownerDesignName>Homework 02</ownerDesignName>
+<engineerTo>
+<item key="CE2D236B-D4CB-2A91-5AEF-C9F27AB47FB6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>2E404136-045D-49D3-D415-8B28976CD06A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BE6CA753-23A0-49C1-BB3C-14C6677BB927" name="JHIST EMP ID ST DATE PK">
+<createdBy>ZZC</createdBy>
+<createdTime>2020-02-25 20:41:04 UTC</createdTime>
+<generatorID>67B6E742-DA6A-8F4A-3B24-D122D4E2E0BA</generatorID>
+<ownerDesignName>Homework 02</ownerDesignName>
+<engineerTo>
+<item key="CE2D236B-D4CB-2A91-5AEF-C9F27AB47FB6" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8B9279D7-9F18-D6F3-4B89-DFDA567AD796</attributeRef>
+<attributeRef>6D0C2E6D-7711-B890-C966-5CC62F8C05CB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="EVENT - ATTENDEE" directorySegmentName="seg_0" id="D87C6922-3FEB-068A-E157-724177EB503E">
+<createdBy>ZZC</createdBy>
+<createdTime>2019-09-25 18:42:48 UTC</createdTime>
+<ownerDesignName>Homework 1</ownerDesignName>
+<engineerTo>
+<item key="F0D88C6C-C936-0FED-0D7C-D04CA7E72536" value="true"/>
+</engineerTo>
+<sourcePk>ACC6C58B-40CA-37A5-C56A-302B5FE3705B</sourcePk>
+<identifying>true</identifying>
+<nameOnSource>hold</nameOnSource>
+<nameOnTarget>participate in</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B60C18A8-F5CF-0BB8-BB28-0F36BD6E3760</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>2EC3F469-5DE9-4A0C-3C74-A55EA2252DDE</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

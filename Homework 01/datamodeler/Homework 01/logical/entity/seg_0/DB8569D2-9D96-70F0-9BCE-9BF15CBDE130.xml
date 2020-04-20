@@ -1,0 +1,133 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DB8569D2-9D96-70F0-9BCE-9BF15CBDE130" name="MEMBER">
+<createdBy>ZZC</createdBy>
+<createdTime>2019-09-25 18:23:08 UTC</createdTime>
+<ownerDesignName>Homework 1</ownerDesignName>
+<engineerTo>
+<item key="F0D88C6C-C936-0FED-0D7C-D04CA7E72536" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Member ID" id="BBFAC881-75AF-A01D-2280-CE66BE898835">
+<createdBy>ZZC</createdBy>
+<createdTime>2019-09-25 18:23:16 UTC</createdTime>
+<ownerDesignName>Homework 1</ownerDesignName>
+<engineerTo>
+<item key="F0D88C6C-C936-0FED-0D7C-D04CA7E72536" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="First Name" id="47437D56-D5B2-9684-4D56-8DA189C9E310">
+<createdBy>ZZC</createdBy>
+<createdTime>2019-09-25 18:23:27 UTC</createdTime>
+<ownerDesignName>Homework 1</ownerDesignName>
+<engineerTo>
+<item key="F0D88C6C-C936-0FED-0D7C-D04CA7E72536" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Last Name" id="8915A939-A394-FF76-EDA7-95A57665E8AA">
+<createdBy>ZZC</createdBy>
+<createdTime>2019-09-25 18:23:32 UTC</createdTime>
+<ownerDesignName>Homework 1</ownerDesignName>
+<engineerTo>
+<item key="F0D88C6C-C936-0FED-0D7C-D04CA7E72536" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Title" id="B021BF8E-72AD-4F93-6E6E-6B086602B36D">
+<createdBy>ZZC</createdBy>
+<createdTime>2019-09-25 18:23:38 UTC</createdTime>
+<ownerDesignName>Homework 1</ownerDesignName>
+<engineerTo>
+<item key="F0D88C6C-C936-0FED-0D7C-D04CA7E72536" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Dues Received" id="1D3BC444-E19B-FFC1-7AA4-0AF7764BFA8B">
+<createdBy>ZZC</createdBy>
+<createdTime>2019-09-25 18:23:43 UTC</createdTime>
+<ownerDesignName>Homework 1</ownerDesignName>
+<engineerTo>
+<item key="F0D88C6C-C936-0FED-0D7C-D04CA7E72536" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Address" id="1B2B67AE-3ACF-7E0F-ECE5-0012A88D4139">
+<createdBy>ZZC</createdBy>
+<createdTime>2019-09-25 18:24:03 UTC</createdTime>
+<ownerDesignName>Homework 1</ownerDesignName>
+<engineerTo>
+<item key="F0D88C6C-C936-0FED-0D7C-D04CA7E72536" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Phone Number" id="4EEDF0B4-2B1D-8314-DD4B-54471C7DCBEF">
+<createdBy>ZZC</createdBy>
+<createdTime>2019-09-25 18:24:06 UTC</createdTime>
+<ownerDesignName>Homework 1</ownerDesignName>
+<engineerTo>
+<item key="F0D88C6C-C936-0FED-0D7C-D04CA7E72536" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Membership Type" id="6EBE702F-9DC6-EA15-731C-4C3E513A82FC">
+<createdBy>ZZC</createdBy>
+<createdTime>2019-09-25 18:24:11 UTC</createdTime>
+<ownerDesignName>Homework 1</ownerDesignName>
+<engineerTo>
+<item key="F0D88C6C-C936-0FED-0D7C-D04CA7E72536" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID" id="D7BC2452-D63D-8716-E633-5BD89BEE47F6">
+<createdBy>ZZC</createdBy>
+<createdTime>2019-09-25 18:36:55 UTC</createdTime>
+<generatorID>893844E6-E5D8-5ABE-9F1E-E4EE584A9B65</generatorID>
+<ownerDesignName>Homework 1</ownerDesignName>
+<engineerTo>
+<item key="F0D88C6C-C936-0FED-0D7C-D04CA7E72536" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>497E3D1F-6B8D-2833-C1DF-65F8163DBA54</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0F95971C-E3A9-9F70-E25D-B02497A2F49A" name="MEMBER PK">
+<createdBy>ZZC</createdBy>
+<createdTime>2019-09-25 18:23:17 UTC</createdTime>
+<ownerDesignName>Homework 1</ownerDesignName>
+<engineerTo>
+<item key="F0D88C6C-C936-0FED-0D7C-D04CA7E72536" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BBFAC881-75AF-A01D-2280-CE66BE898835</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

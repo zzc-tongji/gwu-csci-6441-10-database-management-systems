@@ -1,0 +1,124 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0909F90E-9DB4-B6C7-D7AD-14E03BD62F32" name="MEMBERSHIP">
+<createdBy>ZZC</createdBy>
+<createdTime>2019-09-25 16:06:52 UTC</createdTime>
+<ownerDesignName>Homework 1</ownerDesignName>
+<engineerTo>
+<item key="F0D88C6C-C936-0FED-0D7C-D04CA7E72536" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Type" id="71121D2F-8B00-8456-4B08-7E1B6E26E4BF">
+<createdBy>ZZC</createdBy>
+<createdTime>2019-09-25 16:08:17 UTC</createdTime>
+<ownerDesignName>Homework 1</ownerDesignName>
+<engineerTo>
+<item key="F0D88C6C-C936-0FED-0D7C-D04CA7E72536" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Termination Reason" id="DB14391C-275B-1FE3-341E-C1B0887DCA46">
+<createdBy>ZZC</createdBy>
+<createdTime>2019-09-25 16:08:40 UTC</createdTime>
+<ownerDesignName>Homework 1</ownerDesignName>
+<engineerTo>
+<item key="F0D88C6C-C936-0FED-0D7C-D04CA7E72536" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Discount Percentage" id="850883D3-DAD6-8A00-AA2C-C44C7C60BC93">
+<createdBy>ZZC</createdBy>
+<createdTime>2019-09-25 16:09:23 UTC</createdTime>
+<ownerDesignName>Homework 1</ownerDesignName>
+<engineerTo>
+<item key="F0D88C6C-C936-0FED-0D7C-D04CA7E72536" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Termination Date" id="C0F9E39A-2885-A95E-5658-5A838FBDB85A">
+<createdBy>ZZC</createdBy>
+<createdTime>2019-09-25 16:09:38 UTC</createdTime>
+<ownerDesignName>Homework 1</ownerDesignName>
+<engineerTo>
+<item key="F0D88C6C-C936-0FED-0D7C-D04CA7E72536" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Standard Fee" id="DFF8E549-7AF4-7F70-5AB8-B0E56BB9C487">
+<createdBy>ZZC</createdBy>
+<createdTime>2019-09-25 16:09:55 UTC</createdTime>
+<ownerDesignName>Homework 1</ownerDesignName>
+<engineerTo>
+<item key="F0D88C6C-C936-0FED-0D7C-D04CA7E72536" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Start Date" id="3E9A9139-D75D-EE0D-E4C1-20334B205398">
+<createdBy>ZZC</createdBy>
+<createdTime>2019-09-25 16:10:05 UTC</createdTime>
+<ownerDesignName>Homework 1</ownerDesignName>
+<engineerTo>
+<item key="F0D88C6C-C936-0FED-0D7C-D04CA7E72536" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Organization ID" id="D5F75424-219A-34FA-0AA7-D41C5A167554">
+<createdBy>ZZC</createdBy>
+<createdTime>2019-09-25 17:28:22 UTC</createdTime>
+<generatorID>4C7731FC-6B0D-F615-45A1-5AC89BF3D2E8</generatorID>
+<ownerDesignName>Homework 1</ownerDesignName>
+<engineerTo>
+<item key="F0D88C6C-C936-0FED-0D7C-D04CA7E72536" value="true"/>
+</engineerTo>
+<referedAttribute>BD163F4D-C80D-8E8F-5305-F7D3A5D8879B</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Customer ID" id="DE530FCE-9BA5-6DAD-7868-FD045F3D05BA">
+<createdBy>ZZC</createdBy>
+<createdTime>2019-09-25 17:28:59 UTC</createdTime>
+<generatorID>887652BE-EC7F-4689-3BBC-8CDC83F44944</generatorID>
+<ownerDesignName>Homework 1</ownerDesignName>
+<engineerTo>
+<item key="F0D88C6C-C936-0FED-0D7C-D04CA7E72536" value="true"/>
+</engineerTo>
+<referedAttribute>62142E0E-360F-A35A-D617-DEBF4EC42E3B</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3C06D9A1-E074-0B79-EC69-5DA5DD85BCEB" name="MEMBERSHIP PK">
+<createdBy>ZZC</createdBy>
+<createdTime>2019-09-25 17:29:49 UTC</createdTime>
+<ownerDesignName>Homework 1</ownerDesignName>
+<engineerTo>
+<item key="F0D88C6C-C936-0FED-0D7C-D04CA7E72536" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D5F75424-219A-34FA-0AA7-D41C5A167554</attributeRef>
+<attributeRef>DE530FCE-9BA5-6DAD-7868-FD045F3D05BA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

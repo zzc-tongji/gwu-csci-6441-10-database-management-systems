@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Process class="oracle.dbtools.crest.model.design.process.Process" name="Produce Membership Card" directorySegmentName="seg_0" id="B7732269-FDE9-B080-7FD9-CE77F3EB725E">
+<createdBy>ZZC</createdBy>
+<createdTime>2019-09-25 14:08:49 UTC</createdTime>
+<ownerDesignName>p2</ownerDesignName>
+<primary>false</primary>
+<batchMinimumTransactions>1000</batchMinimumTransactions>
+<batchTimeUnit>Second</batchTimeUnit>
+<frequencyTimeUnit>Day</frequencyTimeUnit>
+<frequencyTimes>0</frequencyTimes>
+<interactiveLongestResponseTime>5</interactiveLongestResponseTime>
+<interactiveResponseTimeUnit>Second</interactiveResponseTimeUnit>
+<mode>Unknown</mode>
+<priority>Low</priority>
+<peakPeriodsString>000000000000000000000000</peakPeriodsString>
+<events>
+<eventRef>FBFD12C6-EE0C-11D6-4AB9-1AF9CEE9DB56</eventRef>
+</events>
+</Process>

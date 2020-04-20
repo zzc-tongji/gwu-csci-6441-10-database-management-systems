@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2EC3F469-5DE9-4A0C-3C74-A55EA2252DDE" name="ATTENDEE">
+<createdBy>ZZC</createdBy>
+<createdTime>2019-09-25 18:39:41 UTC</createdTime>
+<ownerDesignName>Homework 1</ownerDesignName>
+<engineerTo>
+<item key="F0D88C6C-C936-0FED-0D7C-D04CA7E72536" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Member ID" id="DB6EFC6A-1174-18DC-9FB8-E96404BDE7FC">
+<createdBy>ZZC</createdBy>
+<createdTime>2019-09-25 18:40:30 UTC</createdTime>
+<generatorID>5095AB6C-A955-DCB8-555C-E2130CBA4810</generatorID>
+<ownerDesignName>Homework 1</ownerDesignName>
+<engineerTo>
+<item key="F0D88C6C-C936-0FED-0D7C-D04CA7E72536" value="true"/>
+</engineerTo>
+<referedAttribute>BBFAC881-75AF-A01D-2280-CE66BE898835</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Event ID" id="CD944672-007F-E963-6D3B-4B288F3BBC1E">
+<createdBy>ZZC</createdBy>
+<createdTime>2019-09-25 18:42:48 UTC</createdTime>
+<generatorID>D87C6922-3FEB-068A-E157-724177EB503E</generatorID>
+<ownerDesignName>Homework 1</ownerDesignName>
+<engineerTo>
+<item key="F0D88C6C-C936-0FED-0D7C-D04CA7E72536" value="true"/>
+</engineerTo>
+<referedAttribute>82AB7567-AAFA-9059-B541-1F0E0D535D36</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5129CBBA-D8B0-78E3-BF6D-ED551BA016C8" name="ATTENDEE PK">
+<createdBy>ZZC</createdBy>
+<createdTime>2019-09-25 18:42:48 UTC</createdTime>
+<ownerDesignName>Homework 1</ownerDesignName>
+<engineerTo>
+<item key="F0D88C6C-C936-0FED-0D7C-D04CA7E72536" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CD944672-007F-E963-6D3B-4B288F3BBC1E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

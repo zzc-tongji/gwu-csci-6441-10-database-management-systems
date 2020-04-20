@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="GUEST - RESERVATION" directorySegmentName="seg_0" id="2E4318F4-3334-29F1-0760-DF384461CD37">
+<createdBy>ZZC</createdBy>
+<createdTime>2019-09-25 17:15:24 UTC</createdTime>
+<ownerDesignName>Homework 1</ownerDesignName>
+<engineerTo>
+<item key="F0D88C6C-C936-0FED-0D7C-D04CA7E72536" value="true"/>
+</engineerTo>
+<sourcePk>C3C2E7EB-2A17-CEEA-0B0E-8F736242B292</sourcePk>
+<identifying>true</identifying>
+<nameOnSource>make</nameOnSource>
+<nameOnTarget>made by</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>7CBED80F-EF50-D6CB-8D06-9F32CC0C075C</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>F32AF742-EAA5-93D4-75D0-AFB2ACCB6E6C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

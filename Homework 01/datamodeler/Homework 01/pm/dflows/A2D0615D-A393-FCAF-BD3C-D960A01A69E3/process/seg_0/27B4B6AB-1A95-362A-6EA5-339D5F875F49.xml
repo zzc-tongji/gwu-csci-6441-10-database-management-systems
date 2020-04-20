@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Process class="oracle.dbtools.crest.model.design.process.Process" name="Gather Membership Information" directorySegmentName="seg_0" id="27B4B6AB-1A95-362A-6EA5-339D5F875F49">
+<createdBy>ZZC</createdBy>
+<createdTime>2019-09-25 14:08:35 UTC</createdTime>
+<ownerDesignName>p2</ownerDesignName>
+<primary>false</primary>
+<type>1</type>
+<batchMinimumTransactions>1000</batchMinimumTransactions>
+<batchTimeUnit>Second</batchTimeUnit>
+<diagram>9909C57E-AB62-6C21-B23A-9255B010175F</diagram>
+<frequencyTimeUnit>Day</frequencyTimeUnit>
+<frequencyTimes>0</frequencyTimes>
+<interactiveLongestResponseTime>5</interactiveLongestResponseTime>
+<interactiveResponseTimeUnit>Second</interactiveResponseTimeUnit>
+<mode>Unknown</mode>
+<priority>Low</priority>
+<peakPeriodsString>000000000000000000000000</peakPeriodsString>
+<events>
+<eventRef>FBFD12C6-EE0C-11D6-4AB9-1AF9CEE9DB56</eventRef>
+</events>
+</Process>

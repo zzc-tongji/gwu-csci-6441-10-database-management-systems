@@ -1,0 +1,6 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.process.TransformationTask>
+   <object objectType="Transformation" objectID="18486CC4-ADBB-043C-396B-F42C364EA401" name="ETL Process" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.process.Transformation" propertyParentId="39440C3C-18E0-9FBE-16E3-70270BAAED91" propertySourceId="" propertyTargetId=""/>
+   <object objectType="TransformationFlow" objectID="09447EA1-F583-150A-874E-1830789C027A" name="Membership" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.process.TransformationFlow" propertyParentId="39440C3C-18E0-9FBE-16E3-70270BAAED91" propertySourceId="887ED597-5946-F5FE-3206-1C6B2234A127" propertyTargetId="18486CC4-ADBB-043C-396B-F42C364EA401"/>
+   <object objectType="TransformationFlow" objectID="696C9B4F-DFAF-8607-B5E2-B88544EB08E6" name="Membershipv1" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.process.TransformationFlow" propertyParentId="39440C3C-18E0-9FBE-16E3-70270BAAED91" propertySourceId="18486CC4-ADBB-043C-396B-F42C364EA401" propertyTargetId="6756626E-7644-9BCF-C797-50968C007BF9"/>
+</oracle.dbtools.crest.model.design.process.TransformationTask>

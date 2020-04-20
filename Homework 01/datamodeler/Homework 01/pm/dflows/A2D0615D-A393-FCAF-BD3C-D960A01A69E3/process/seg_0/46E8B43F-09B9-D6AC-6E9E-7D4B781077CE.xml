@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Process class="oracle.dbtools.crest.model.design.process.Process" name="ETL" directorySegmentName="seg_0" id="46E8B43F-09B9-D6AC-6E9E-7D4B781077CE">
+<createdBy>ZZC</createdBy>
+<createdTime>2019-09-25 15:31:01 UTC</createdTime>
+<ownerDesignName>p2</ownerDesignName>
+<primary>false</primary>
+<type>2</type>
+<batchMinimumTransactions>1000</batchMinimumTransactions>
+<batchTimeUnit>Second</batchTimeUnit>
+<frequencyTimeUnit>Day</frequencyTimeUnit>
+<frequencyTimes>0</frequencyTimes>
+<interactiveLongestResponseTime>5</interactiveLongestResponseTime>
+<interactiveResponseTimeUnit>Second</interactiveResponseTimeUnit>
+<mode>Unknown</mode>
+<priority>Low</priority>
+<transformationtask>39440C3C-18E0-9FBE-16E3-70270BAAED91</transformationtask>
+<peakPeriodsString>000000000000000000000000</peakPeriodsString>
+</Process>

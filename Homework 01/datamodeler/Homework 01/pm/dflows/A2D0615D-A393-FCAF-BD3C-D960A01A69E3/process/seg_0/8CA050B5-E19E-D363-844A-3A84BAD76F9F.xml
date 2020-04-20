@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Process class="oracle.dbtools.crest.model.design.process.Process" name="Process Membership Fee" directorySegmentName="seg_0" id="8CA050B5-E19E-D363-844A-3A84BAD76F9F">
+<createdBy>ZZC</createdBy>
+<createdTime>2019-09-25 14:10:25 UTC</createdTime>
+<ownerDesignName>p2</ownerDesignName>
+<primary>false</primary>
+<batchMinimumTransactions>1000</batchMinimumTransactions>
+<batchTimeUnit>Second</batchTimeUnit>
+<frequencyTimeUnit>Day</frequencyTimeUnit>
+<frequencyTimes>0</frequencyTimes>
+<interactiveLongestResponseTime>5</interactiveLongestResponseTime>
+<interactiveResponseTimeUnit>Second</interactiveResponseTimeUnit>
+<mode>Unknown</mode>
+<priority>Low</priority>
+<peakPeriodsString>000000000000000000000000</peakPeriodsString>
+<events>
+<eventRef>3109E590-DFC3-A987-A21C-A1E3470D29E9</eventRef>
+</events>
+</Process>

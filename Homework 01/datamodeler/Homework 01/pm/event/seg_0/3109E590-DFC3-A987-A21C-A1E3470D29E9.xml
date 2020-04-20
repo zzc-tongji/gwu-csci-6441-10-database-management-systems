@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Event class="oracle.dbtools.crest.model.design.process.Event" name="New Membership Information" directorySegmentName="seg_0" id="3109E590-DFC3-A987-A21C-A1E3470D29E9">
+<createdBy>ZZC</createdBy>
+<createdTime>2019-09-25 14:49:07 UTC</createdTime>
+<ownerDesignName>p2</ownerDesignName>
+<atTime>false</atTime>
+<dayOfMonth>0</dayOfMonth>
+<dayOfWeek>Monday thru Sunday</dayOfWeek>
+<eventType>1</eventType>
+<fiscal>true</fiscal>
+<frequency>0</frequency>
+<hour>0</hour>
+<minute>0</minute>
+<months>All Months</months>
+<onDay>true</onDay>
+<quarter>0</quarter>
+<timeFreq>0</timeFreq>
+<timesWhenRun>1</timesWhenRun>
+<year>0</year>
+</Event>

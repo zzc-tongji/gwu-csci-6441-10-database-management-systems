@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="CUSTOMER - MEMBERSHIP" directorySegmentName="seg_0" id="887652BE-EC7F-4689-3BBC-8CDC83F44944">
+<createdBy>ZZC</createdBy>
+<createdTime>2019-09-25 16:50:47 UTC</createdTime>
+<ownerDesignName>Homework 1</ownerDesignName>
+<engineerTo>
+<item key="F0D88C6C-C936-0FED-0D7C-D04CA7E72536" value="true"/>
+</engineerTo>
+<sourcePk>08DCD069-5130-D04E-A6EE-571081F69BD2</sourcePk>
+<identifying>true</identifying>
+<nameOnSource>hold</nameOnSource>
+<nameOnTarget>be held by</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>5162FE67-D7BC-41A0-8D9D-8F7AD78AC02A</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>0909F90E-9DB4-B6C7-D7AD-14E03BD62F32</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

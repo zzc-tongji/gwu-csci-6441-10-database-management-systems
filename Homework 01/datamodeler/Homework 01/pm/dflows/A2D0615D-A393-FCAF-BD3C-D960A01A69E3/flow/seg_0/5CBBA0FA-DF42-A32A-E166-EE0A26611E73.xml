@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Flow class="oracle.dbtools.crest.model.design.process.Flow" name="Gold and Silver Membership Information" directorySegmentName="seg_0" id="5CBBA0FA-DF42-A32A-E166-EE0A26611E73">
+<createdBy>ZZC</createdBy>
+<createdTime>2019-09-25 14:27:40 UTC</createdTime>
+<ownerDesignName>p2</ownerDesignName>
+<destination>8CA050B5-E19E-D363-844A-3A84BAD76F9F</destination>
+<logging>false</logging>
+<opCreate>false</opCreate>
+<opDelete>false</opDelete>
+<opRead>true</opRead>
+<opUpdate>false</opUpdate>
+<sourceProcessObject>86C20F9F-3196-0BAA-3E7A-6511389146F5</sourceProcessObject>
+<targetProcessObject>8CA050B5-E19E-D363-844A-3A84BAD76F9F</targetProcessObject>
+</Flow>

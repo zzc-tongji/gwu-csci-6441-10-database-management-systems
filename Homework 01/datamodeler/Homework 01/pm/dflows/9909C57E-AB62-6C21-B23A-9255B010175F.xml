@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<DataFlowDesign class="oracle.dbtools.crest.model.design.process.DataFlowDesign" name="Gather Membership Information Diagram" id="9909C57E-AB62-6C21-B23A-9255B010175F" mainViewID="2F1C0505-68C3-EF81-B67A-0CD5AB28496D" topLevel="false" parentDFD_ID="A2D0615D-A393-FCAF-BD3C-D960A01A69E3">
+<createdBy>ZZC</createdBy>
+<createdTime>2019-09-25 15:09:37 UTC</createdTime>
+<ownerDesignName>p2</ownerDesignName>
+<shouldBeOpen>true</shouldBeOpen>
+<process>27B4B6AB-1A95-362A-6EA5-339D5F875F49</process>
+<processOrderString>9F18FCED-D75E-ED38-9F63-8DF242CE4948,1AC279C5-7192-4514-7C2E-064040C154F0</processOrderString>
+</DataFlowDesign>

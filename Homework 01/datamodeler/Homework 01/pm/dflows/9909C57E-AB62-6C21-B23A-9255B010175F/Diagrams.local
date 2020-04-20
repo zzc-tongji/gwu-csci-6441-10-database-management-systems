@@ -1,0 +1,4 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.process.DataFlowDesign>
+   <object objectType="main_view" objectID="2F1C0505-68C3-EF81-B67A-0CD5AB28496D" name="Gather Membership Information Diagram" visible="false"/>
+</oracle.dbtools.crest.model.design.process.DataFlowDesign>

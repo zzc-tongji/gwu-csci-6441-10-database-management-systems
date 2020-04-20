@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Flow class="oracle.dbtools.crest.model.design.process.Flow" name="Membership Information" directorySegmentName="seg_0" id="F23D477B-5B5F-B56E-6B67-8EB2CF5B5640">
+<createdBy>ZZC</createdBy>
+<createdTime>2019-09-25 14:12:13 UTC</createdTime>
+<ownerDesignName>p2</ownerDesignName>
+<destination>86C20F9F-3196-0BAA-3E7A-6511389146F5</destination>
+<logging>false</logging>
+<opCreate>false</opCreate>
+<opDelete>false</opDelete>
+<opRead>false</opRead>
+<opUpdate>false</opUpdate>
+<sourceProcessObject>27B4B6AB-1A95-362A-6EA5-339D5F875F49</sourceProcessObject>
+<targetProcessObject>86C20F9F-3196-0BAA-3E7A-6511389146F5</targetProcessObject>
+</Flow>

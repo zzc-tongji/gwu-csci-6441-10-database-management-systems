@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TransformationTask class="oracle.dbtools.crest.model.design.process.TransformationTask" name="Transformation Task_1" id="39440C3C-18E0-9FBE-16E3-70270BAAED91" mainViewID="2CDFBA58-86CD-8D45-9FB8-C2C4C835701A">
+<createdBy>ZZC</createdBy>
+<createdTime>2019-09-25 15:18:52 UTC</createdTime>
+<ownerDesignName>p2</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<processModel>4443A187-542B-9941-1BB5-78F6A47E80DA</processModel>
+<topLevel>true</topLevel>
+<inputParamsObject class="oracle.dbtools.crest.model.design.process.InOutParams" id="AAE44B1A-2204-1930-0AD0-9F4EBCB14D70">
+<parametersMultiplicity>Single Record</parametersMultiplicity>
+</inputParamsObject>
+<outputParamsObject class="oracle.dbtools.crest.model.design.process.InOutParams" id="E56879FA-17A2-1DC1-261C-02DC7CDFCA5B">
+<parametersMultiplicity>Single Record</parametersMultiplicity>
+</outputParamsObject>
+</TransformationTask>
