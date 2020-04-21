@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Flow class="oracle.dbtools.crest.model.design.process.Flow" name="pizza detail" directorySegmentName="seg_0" id="B248E20F-ABC7-0FD5-328A-6F5DCC3D7707">
+<createdBy>ZZC</createdBy>
+<createdTime>2020-04-13 18:06:34 UTC</createdTime>
+<ownerDesignName>Homework 03</ownerDesignName>
+<destination>13BF92A9-466F-6A06-5819-DF00047B5AF3</destination>
+<logging>false</logging>
+<opCreate>false</opCreate>
+<opDelete>false</opDelete>
+<opRead>false</opRead>
+<opUpdate>false</opUpdate>
+<sourceProcessObject>D068F48D-422A-E516-CD8E-C1CB575429B2</sourceProcessObject>
+<targetProcessObject>13BF92A9-466F-6A06-5819-DF00047B5AF3</targetProcessObject>
+</Flow>

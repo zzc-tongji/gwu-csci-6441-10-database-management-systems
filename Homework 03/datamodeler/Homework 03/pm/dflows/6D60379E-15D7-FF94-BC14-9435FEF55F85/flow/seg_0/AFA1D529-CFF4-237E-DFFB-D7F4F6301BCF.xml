@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Flow class="oracle.dbtools.crest.model.design.process.Flow" name="avaliability" directorySegmentName="seg_0" id="AFA1D529-CFF4-237E-DFFB-D7F4F6301BCF">
+<createdBy>ZZC</createdBy>
+<createdTime>2020-04-13 18:31:20 UTC</createdTime>
+<ownerDesignName>Homework 03</ownerDesignName>
+<destination>151F7036-23FE-93C7-30BA-CE5AEA23F31A</destination>
+<logging>false</logging>
+<opCreate>false</opCreate>
+<opDelete>false</opDelete>
+<opRead>false</opRead>
+<opUpdate>false</opUpdate>
+<sourceProcessObject>58EC1980-6B0B-46AA-D6AF-5304B36900DE</sourceProcessObject>
+<targetProcessObject>151F7036-23FE-93C7-30BA-CE5AEA23F31A</targetProcessObject>
+</Flow>

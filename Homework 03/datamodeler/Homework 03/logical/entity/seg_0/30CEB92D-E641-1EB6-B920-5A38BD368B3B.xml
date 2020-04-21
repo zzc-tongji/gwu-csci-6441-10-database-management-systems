@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="30CEB92D-E641-1EB6-B920-5A38BD368B3B" name="BUSINESS OWNER">
+<createdBy>ZZC</createdBy>
+<createdTime>2020-04-13 20:51:20 UTC</createdTime>
+<ownerDesignName>Homework 03</ownerDesignName>
+<engineerTo>
+<item key="31C4DCBC-922E-9549-2E64-711057636183" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="0ADDB5D1-56C2-A658-A574-067F95B704C1">
+<createdBy>ZZC</createdBy>
+<createdTime>2020-04-13 20:53:21 UTC</createdTime>
+<ownerDesignName>Homework 03</ownerDesignName>
+<engineerTo>
+<item key="31C4DCBC-922E-9549-2E64-711057636183" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="WEBSITE" id="1F11AE75-9804-DBDF-A7D7-9CF863C61625">
+<createdBy>ZZC</createdBy>
+<createdTime>2020-04-13 20:53:28 UTC</createdTime>
+<ownerDesignName>Homework 03</ownerDesignName>
+<engineerTo>
+<item key="31C4DCBC-922E-9549-2E64-711057636183" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256 CHAR</dataTypeSize>
+<ownDataTypeParameters>256 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="APP USER ID" id="0D982D13-9851-0FAD-6165-37174F5FB7A7">
+<createdBy>ZZC</createdBy>
+<createdTime>2020-04-13 22:06:14 UTC</createdTime>
+<generatorID>5186A5B4-E8DA-03E3-B445-90BEA03D325A</generatorID>
+<ownerDesignName>Homework 03</ownerDesignName>
+<engineerTo>
+<item key="31C4DCBC-922E-9549-2E64-711057636183" value="true"/>
+</engineerTo>
+<referedAttribute>62DB9CED-2353-7894-E289-6C8C63AD2814</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4099F944-807F-2D87-CE77-DF99137F9AF2" name="BUSINESS_OWNER_PK">
+<createdBy>ZZC</createdBy>
+<createdTime>2020-04-13 20:53:25 UTC</createdTime>
+<ownerDesignName>Homework 03</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="31C4DCBC-922E-9549-2E64-711057636183" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0ADDB5D1-56C2-A658-A574-067F95B704C1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8DCA135B-7E79-F7DD-2FD0-763AF8551324" name="WORK">
+<createdBy>ZZC</createdBy>
+<createdTime>2020-04-13 22:36:27 UTC</createdTime>
+<ownerDesignName>Homework 03</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ENTERTAINER_ID" id="74199DB7-1E60-8EBB-F9AF-49A03E1BB9EB">
+<createdBy>ZZC</createdBy>
+<createdTime>2020-04-13 22:36:27 UTC</createdTime>
+<ownerDesignName>Homework 03</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="697B04B6-B3D5-C1AD-2911-85D937582437" referredColumn="4E1DA823-F77F-E38D-FE49-30E38DE93AE0"/>
+</associations>
+</Column>
+<Column name="RESTAURANT_ID" id="EFBA8BCB-91EB-C576-08F0-0332C84B29F3">
+<createdBy>ZZC</createdBy>
+<createdTime>2020-04-13 22:36:27 UTC</createdTime>
+<ownerDesignName>Homework 03</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="99AC3BD7-AD88-BDD9-730B-003B6CEBE078" referredColumn="FB238C7E-057E-45EF-2B84-FDF3F1113C0D"/>
+</associations>
+</Column>
+<Column name="WEEKDAY" id="4C012885-CC6B-1902-BAAA-77C9F0D4FBBB">
+<createdBy>ZZC</createdBy>
+<createdTime>2020-04-13 22:36:27 UTC</createdTime>
+<generatorID>A6811C38-00D5-6E97-97E3-96E7FE4BDAFD</generatorID>
+<ownerDesignName>Homework 03</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16 CHAR</dataTypeSize>
+<ownDataTypeParameters>16 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+</Column>
+<Column name="START_TIME" id="953DA72E-B68B-FF02-2D7D-E1A4608CA935">
+<createdBy>ZZC</createdBy>
+<createdTime>2020-04-13 22:36:27 UTC</createdTime>
+<generatorID>6A3E9812-2C70-FEF9-0F62-521472F5EFA8</generatorID>
+<ownerDesignName>Homework 03</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+</Column>
+<Column name="END_TIME" id="A3992D6B-B4F5-00CA-0B22-E72004BC6275">
+<createdBy>ZZC</createdBy>
+<createdTime>2020-04-13 22:36:27 UTC</createdTime>
+<generatorID>960E287D-83C4-6D49-D20F-9F3137716A96</generatorID>
+<ownerDesignName>Homework 03</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0AE08DE3-2D4C-8336-7550-CEEEDABBACFC" name="WORK_PK">
+<createdBy>ZZC</createdBy>
+<createdTime>2020-04-13 22:36:27 UTC</createdTime>
+<ownerDesignName>Homework 03</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="74199DB7-1E60-8EBB-F9AF-49A03E1BB9EB"/>
+<colUsage columnID="EFBA8BCB-91EB-C576-08F0-0332C84B29F3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="352752FD-7B3C-36E4-B302-DAAB3F32CE90" name="WORK_ENTAINTAINER_FK">
+<createdBy>ZZC</createdBy>
+<createdTime>2020-04-13 22:36:27 UTC</createdTime>
+<generatorID>F9280FAA-11AD-6D3D-CA35-429054A0A88B</generatorID>
+<ownerDesignName>Homework 03</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="74199DB7-1E60-8EBB-F9AF-49A03E1BB9EB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3FF3039C-C62B-9EEB-8A47-191BEF06A924" name="WORK_RESTAURANT_FK">
+<createdBy>ZZC</createdBy>
+<createdTime>2020-04-13 22:36:27 UTC</createdTime>
+<generatorID>F9280FAA-11AD-6D3D-CA35-429054A0A88B</generatorID>
+<ownerDesignName>Homework 03</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EFBA8BCB-91EB-C576-08F0-0332C84B29F3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

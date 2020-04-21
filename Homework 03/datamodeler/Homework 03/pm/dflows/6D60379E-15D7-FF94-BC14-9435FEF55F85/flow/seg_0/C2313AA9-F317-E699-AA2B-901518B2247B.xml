@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Flow class="oracle.dbtools.crest.model.design.process.Flow" name="order detail" directorySegmentName="seg_0" id="C2313AA9-F317-E699-AA2B-901518B2247B">
+<createdBy>ZZC</createdBy>
+<createdTime>2020-04-13 18:32:13 UTC</createdTime>
+<ownerDesignName>Homework 03</ownerDesignName>
+<destination>CBFBD58A-1FA3-260A-73A6-DB746B48DE68</destination>
+<logging>false</logging>
+<opCreate>false</opCreate>
+<opDelete>false</opDelete>
+<opRead>false</opRead>
+<opUpdate>false</opUpdate>
+<sourceProcessObject>C4A2490C-1BCB-952C-71CD-1D46D5E35A39</sourceProcessObject>
+<targetProcessObject>CBFBD58A-1FA3-260A-73A6-DB746B48DE68</targetProcessObject>
+</Flow>

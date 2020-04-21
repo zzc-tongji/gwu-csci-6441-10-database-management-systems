@@ -1,0 +1,135 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D2EE87EC-7119-A791-C42B-A81A8E8ACA6E" name="RESTAURANT">
+<createdBy>ZZC</createdBy>
+<createdTime>2020-04-13 22:36:27 UTC</createdTime>
+<generatorID>0326C9EE-03F1-C4E9-1398-54DA6C244F5C</generatorID>
+<ownerDesignName>Homework 03</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="FB238C7E-057E-45EF-2B84-FDF3F1113C0D">
+<createdBy>ZZC</createdBy>
+<createdTime>2020-04-13 22:36:27 UTC</createdTime>
+<generatorID>A104E6BC-2B7B-C22E-4FCF-EEE198B4B026</generatorID>
+<ownerDesignName>Homework 03</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAME" id="0F804E8B-86DE-E598-1A90-47FBDDB6D90D">
+<createdBy>ZZC</createdBy>
+<createdTime>2020-04-13 22:36:27 UTC</createdTime>
+<generatorID>6D9815E8-6D6A-0EBE-2E4D-FCAC9DED359B</generatorID>
+<ownerDesignName>Homework 03</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256 CHAR</dataTypeSize>
+<ownDataTypeParameters>256 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ZIP_CODE" id="9A5E36E0-4E9F-7F61-C081-88C4FFEF53C8">
+<createdBy>ZZC</createdBy>
+<createdTime>2020-04-13 22:36:27 UTC</createdTime>
+<generatorID>A2602930-9224-0878-3689-DD189CD0AE5B</generatorID>
+<ownerDesignName>Homework 03</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16 CHAR</dataTypeSize>
+<ownDataTypeParameters>16 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DETAILED_ADDRESS" id="5A63EB11-4212-55FB-EA53-C6D35DEFBC2B">
+<createdBy>ZZC</createdBy>
+<createdTime>2020-04-13 22:36:27 UTC</createdTime>
+<generatorID>B3145429-1B47-847A-1310-F10653337E4F</generatorID>
+<ownerDesignName>Homework 03</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256 CHAR</dataTypeSize>
+<ownDataTypeParameters>256 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HOURS" id="7E2329E3-A48C-97EA-8F83-43CB91010D55">
+<createdBy>ZZC</createdBy>
+<createdTime>2020-04-13 22:36:27 UTC</createdTime>
+<generatorID>5D70C341-6C9C-B9F5-4EF1-D328C550FFF0</generatorID>
+<ownerDesignName>Homework 03</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256 CHAR</dataTypeSize>
+<ownDataTypeParameters>256 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PHONE" id="5E43A793-F27C-9011-4EB9-AA2F3F0FC2B6">
+<createdBy>ZZC</createdBy>
+<createdTime>2020-04-13 22:36:27 UTC</createdTime>
+<generatorID>B5141F7B-5F43-980A-37C1-5A6DF0165604</generatorID>
+<ownerDesignName>Homework 03</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16 CHAR</dataTypeSize>
+<ownDataTypeParameters>16 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="WEBSITE" id="B46ACB7B-D923-E70F-686C-B1700EC2EEAE">
+<createdBy>ZZC</createdBy>
+<createdTime>2020-04-13 22:36:27 UTC</createdTime>
+<generatorID>246D3065-F9F0-42E1-B07D-DC236DD447F8</generatorID>
+<ownerDesignName>Homework 03</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256 CHAR</dataTypeSize>
+<ownDataTypeParameters>256 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BUSINESS_OWNER_ID" id="600807FA-BF60-DA06-DDA1-3EBE97C7383C">
+<createdBy>ZZC</createdBy>
+<createdTime>2020-04-13 22:36:27 UTC</createdTime>
+<generatorID>D78E0CD3-0937-DAA2-F387-21BE927953D9</generatorID>
+<ownerDesignName>Homework 03</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2551B566-5C6E-DE02-1563-C6D81F0837A5" referredColumn="A9526F14-C7DB-6273-5BB4-C2016850F94C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4B86B31E-8F6E-8235-F556-442FB815A3E3" name="RESTAURANT_PK">
+<createdBy>ZZC</createdBy>
+<createdTime>2020-04-13 22:36:27 UTC</createdTime>
+<generatorID>334AC72E-A141-AD1D-3EA0-45D4465B3377</generatorID>
+<ownerDesignName>Homework 03</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FB238C7E-057E-45EF-2B84-FDF3F1113C0D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9018ACD8-4727-416E-14E5-7D3E55E542F3" name="RESTAURANT_BUSINESS_OWNER_FK">
+<createdBy>ZZC</createdBy>
+<createdTime>2020-04-13 22:36:27 UTC</createdTime>
+<generatorID>6F70DAA3-F7DF-4266-D7B0-ECEB5E72EDCC</generatorID>
+<ownerDesignName>Homework 03</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="600807FA-BF60-DA06-DDA1-3EBE97C7383C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

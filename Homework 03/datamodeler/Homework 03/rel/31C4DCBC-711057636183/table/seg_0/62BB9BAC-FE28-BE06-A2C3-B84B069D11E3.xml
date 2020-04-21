@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="62BB9BAC-FE28-BE06-A2C3-B84B069D11E3" name="ENTERTAINMENT_ORDER">
+<createdBy>ZZC</createdBy>
+<createdTime>2020-04-13 22:36:27 UTC</createdTime>
+<generatorID>13531A10-3360-5205-E51E-F170AF4EB34B</generatorID>
+<ownerDesignName>Homework 03</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="0716C4DE-F760-5189-8535-4D2B8F998585">
+<createdBy>ZZC</createdBy>
+<createdTime>2020-04-13 22:36:27 UTC</createdTime>
+<generatorID>EC66B1DC-7A6C-369D-4ADE-A7162E38236B</generatorID>
+<ownerDesignName>Homework 03</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TYPE" id="8521C743-808A-5614-947A-4F8F91BBDC4D">
+<createdBy>ZZC</createdBy>
+<createdTime>2020-04-13 22:36:27 UTC</createdTime>
+<generatorID>D179FB72-6F51-24E6-7CCB-8B1492E929B6</generatorID>
+<ownerDesignName>Homework 03</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256 CHAR</dataTypeSize>
+<ownDataTypeParameters>256 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DURATION" id="FDFD1640-7789-6C0D-F3DF-47898F9A7530">
+<createdBy>ZZC</createdBy>
+<createdTime>2020-04-13 22:36:27 UTC</createdTime>
+<generatorID>9B7E7A1E-99B0-76E3-8D27-EE78A907DD83</generatorID>
+<ownerDesignName>Homework 03</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ENTERTAINER_ID" id="4C03CCEE-6E02-CECA-3FCE-F9442A42CE9C">
+<createdBy>ZZC</createdBy>
+<createdTime>2020-04-13 22:36:27 UTC</createdTime>
+<generatorID>BD78C0A5-B7BF-1BC7-48C1-21CBF24D68B9</generatorID>
+<ownerDesignName>Homework 03</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DE62F657-20CB-6B67-4097-7A618854F482" referredColumn="4E1DA823-F77F-E38D-FE49-30E38DE93AE0"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4523FF9C-37C9-E938-D9D6-A38B9BC1EF5D" name="ENTERTAINMENT_ORDER_PK">
+<createdBy>ZZC</createdBy>
+<createdTime>2020-04-13 22:36:27 UTC</createdTime>
+<generatorID>BF1675B4-3167-7D96-A32E-48BE8BF50843</generatorID>
+<ownerDesignName>Homework 03</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0716C4DE-F760-5189-8535-4D2B8F998585"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2F40C0BD-2CC3-F829-A9EA-9C23A55A8D8A" name="ENTERTAINMENT_ORDER_E_FK">
+<createdBy>ZZC</createdBy>
+<createdTime>2020-04-13 22:36:27 UTC</createdTime>
+<generatorID>C1EC834D-952E-7DA5-9DFD-A454397D808C</generatorID>
+<ownerDesignName>Homework 03</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4C03CCEE-6E02-CECA-3FCE-F9442A42CE9C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

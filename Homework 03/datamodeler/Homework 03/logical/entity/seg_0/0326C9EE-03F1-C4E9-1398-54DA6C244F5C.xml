@@ -1,0 +1,138 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0326C9EE-03F1-C4E9-1398-54DA6C244F5C" name="RESTAURANT">
+<createdBy>ZZC</createdBy>
+<createdTime>2020-04-13 20:59:29 UTC</createdTime>
+<ownerDesignName>Homework 03</ownerDesignName>
+<engineerTo>
+<item key="31C4DCBC-922E-9549-2E64-711057636183" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="A104E6BC-2B7B-C22E-4FCF-EEE198B4B026">
+<createdBy>ZZC</createdBy>
+<createdTime>2020-04-13 20:59:39 UTC</createdTime>
+<ownerDesignName>Homework 03</ownerDesignName>
+<engineerTo>
+<item key="31C4DCBC-922E-9549-2E64-711057636183" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NAME" id="6D9815E8-6D6A-0EBE-2E4D-FCAC9DED359B">
+<createdBy>ZZC</createdBy>
+<createdTime>2020-04-13 20:59:43 UTC</createdTime>
+<ownerDesignName>Homework 03</ownerDesignName>
+<engineerTo>
+<item key="31C4DCBC-922E-9549-2E64-711057636183" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256 CHAR</dataTypeSize>
+<ownDataTypeParameters>256 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ZIP CODE" id="A2602930-9224-0878-3689-DD189CD0AE5B">
+<createdBy>ZZC</createdBy>
+<createdTime>2020-04-13 21:00:00 UTC</createdTime>
+<ownerDesignName>Homework 03</ownerDesignName>
+<engineerTo>
+<item key="31C4DCBC-922E-9549-2E64-711057636183" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16 CHAR</dataTypeSize>
+<ownDataTypeParameters>16 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DETAILED ADDRESS" id="B3145429-1B47-847A-1310-F10653337E4F">
+<createdBy>ZZC</createdBy>
+<createdTime>2020-04-13 21:00:04 UTC</createdTime>
+<ownerDesignName>Homework 03</ownerDesignName>
+<engineerTo>
+<item key="31C4DCBC-922E-9549-2E64-711057636183" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256 CHAR</dataTypeSize>
+<ownDataTypeParameters>256 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="HOURS" id="5D70C341-6C9C-B9F5-4EF1-D328C550FFF0">
+<createdBy>ZZC</createdBy>
+<createdTime>2020-04-13 21:00:18 UTC</createdTime>
+<ownerDesignName>Homework 03</ownerDesignName>
+<engineerTo>
+<item key="31C4DCBC-922E-9549-2E64-711057636183" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256 CHAR</dataTypeSize>
+<ownDataTypeParameters>256 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PHONE" id="B5141F7B-5F43-980A-37C1-5A6DF0165604">
+<createdBy>ZZC</createdBy>
+<createdTime>2020-04-13 21:00:13 UTC</createdTime>
+<ownerDesignName>Homework 03</ownerDesignName>
+<engineerTo>
+<item key="31C4DCBC-922E-9549-2E64-711057636183" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16 CHAR</dataTypeSize>
+<ownDataTypeParameters>16 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="WEBSITE" id="246D3065-F9F0-42E1-B07D-DC236DD447F8">
+<createdBy>ZZC</createdBy>
+<createdTime>2020-04-13 21:00:36 UTC</createdTime>
+<ownerDesignName>Homework 03</ownerDesignName>
+<engineerTo>
+<item key="31C4DCBC-922E-9549-2E64-711057636183" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256 CHAR</dataTypeSize>
+<ownDataTypeParameters>256 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID1" id="DFD5A572-F73E-E3DF-57AC-E88F200D05E4">
+<createdBy>ZZC</createdBy>
+<createdTime>2020-04-14 03:21:12 UTC</createdTime>
+<generatorID>6F70DAA3-F7DF-4266-D7B0-ECEB5E72EDCC</generatorID>
+<ownerDesignName>Homework 03</ownerDesignName>
+<engineerTo>
+<item key="31C4DCBC-922E-9549-2E64-711057636183" value="true"/>
+</engineerTo>
+<referedAttribute>0ADDB5D1-56C2-A658-A574-067F95B704C1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="334AC72E-A141-AD1D-3EA0-45D4465B3377" name="RESTAURANT PK">
+<createdBy>ZZC</createdBy>
+<createdTime>2020-04-13 20:59:42 UTC</createdTime>
+<ownerDesignName>Homework 03</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="31C4DCBC-922E-9549-2E64-711057636183" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A104E6BC-2B7B-C22E-4FCF-EEE198B4B026</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

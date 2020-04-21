@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DC7BE121-4B23-5107-727B-73EA9E6CEA90" name="APP USER">
+<createdBy>ZZC</createdBy>
+<createdTime>2020-04-13 20:45:53 UTC</createdTime>
+<ownerDesignName>Homework 03</ownerDesignName>
+<engineerTo>
+<item key="31C4DCBC-922E-9549-2E64-711057636183" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="62DB9CED-2353-7894-E289-6C8C63AD2814">
+<createdBy>ZZC</createdBy>
+<createdTime>2020-04-13 20:47:01 UTC</createdTime>
+<ownerDesignName>Homework 03</ownerDesignName>
+<engineerTo>
+<item key="31C4DCBC-922E-9549-2E64-711057636183" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NAME" id="EA5112A3-1780-F7F0-B8E7-B35B48FEAC32">
+<createdBy>ZZC</createdBy>
+<createdTime>2020-04-13 20:47:31 UTC</createdTime>
+<ownerDesignName>Homework 03</ownerDesignName>
+<engineerTo>
+<item key="31C4DCBC-922E-9549-2E64-711057636183" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256 CHAR</dataTypeSize>
+<ownDataTypeParameters>256 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DATE OF BIRTH" id="3E6EC72E-03FD-81FA-B39C-CEB79B47C8FF">
+<createdBy>ZZC</createdBy>
+<createdTime>2020-04-13 20:47:39 UTC</createdTime>
+<ownerDesignName>Homework 03</ownerDesignName>
+<engineerTo>
+<item key="31C4DCBC-922E-9549-2E64-711057636183" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SEX" id="F967525F-6065-DA74-BC54-90B66DE37DA7">
+<createdBy>ZZC</createdBy>
+<createdTime>2020-04-13 20:48:27 UTC</createdTime>
+<ownerDesignName>Homework 03</ownerDesignName>
+<engineerTo>
+<item key="31C4DCBC-922E-9549-2E64-711057636183" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16 CHAR</dataTypeSize>
+<ownDataTypeParameters>16 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="03C5B4D6-0C56-9691-970C-1776B0C613EA" name="APP_USER_PK">
+<createdBy>ZZC</createdBy>
+<createdTime>2020-04-13 20:47:09 UTC</createdTime>
+<ownerDesignName>Homework 03</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="31C4DCBC-922E-9549-2E64-711057636183" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>62DB9CED-2353-7894-E289-6C8C63AD2814</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

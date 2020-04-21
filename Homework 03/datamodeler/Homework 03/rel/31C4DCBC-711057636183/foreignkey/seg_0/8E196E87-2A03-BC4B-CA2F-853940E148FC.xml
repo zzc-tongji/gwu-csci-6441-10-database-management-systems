@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8E196E87-2A03-BC4B-CA2F-853940E148FC" containerWithKeyObject="30F9F337-655B-23D6-4DA9-7658B4698E82" localFKIndex="4535A9E0-41FE-957B-E74B-FD92966B942C" name="ORDER_ENTERTAINMENT_ORDER_FK">
+<createdBy>ZZC</createdBy>
+<createdTime>2020-04-13 22:36:27 UTC</createdTime>
+<generatorID>C48817C2-C06A-2C73-8E5C-EC1B51988FB4</generatorID>
+<ownerDesignName>Homework 03</ownerDesignName>
+<referredTableLongName>ENTERTAINMENT_ORDER</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>62BB9BAC-FE28-BE06-A2C3-B84B069D11E3</referredTableID>
+<keyObject>4523FF9C-37C9-E938-D9D6-A38B9BC1EF5D</keyObject>
+<referredKeyID>4523FF9C-37C9-E938-D9D6-A38B9BC1EF5D</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

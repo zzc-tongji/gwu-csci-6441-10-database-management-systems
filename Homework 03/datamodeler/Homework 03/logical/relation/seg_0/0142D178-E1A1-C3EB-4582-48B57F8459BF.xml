@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PIZZA RESTAURANT FK" directorySegmentName="seg_0" id="0142D178-E1A1-C3EB-4582-48B57F8459BF">
+<createdBy>ZZC</createdBy>
+<createdTime>2020-04-13 21:33:46 UTC</createdTime>
+<ownerDesignName>Homework 03</ownerDesignName>
+<engineerTo>
+<item key="31C4DCBC-922E-9549-2E64-711057636183" value="true"/>
+</engineerTo>
+<sourcePk>334AC72E-A141-AD1D-3EA0-45D4465B3377</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>offers</nameOnSource>
+<nameOnTarget>is offered by</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>0326C9EE-03F1-C4E9-1398-54DA6C244F5C</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>F559D396-CAA6-0912-1ACD-6F12B15C1339</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="WORK" directorySegmentName="seg_0" id="F9280FAA-11AD-6D3D-CA35-429054A0A88B">
+<createdBy>ZZC</createdBy>
+<createdTime>2020-04-13 21:16:38 UTC</createdTime>
+<ownerDesignName>Homework 03</ownerDesignName>
+<engineerTo>
+<item key="31C4DCBC-922E-9549-2E64-711057636183" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<nameOnSource>works for</nameOnSource>
+<nameOnTarget>provides work to</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>8825E8FC-F8C7-72D9-65AD-A6C009158CF4</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>0326C9EE-03F1-C4E9-1398-54DA6C244F5C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="WEEKDAY" id="A6811C38-00D5-6E97-97E3-96E7FE4BDAFD">
+<createdBy>ZZC</createdBy>
+<createdTime>2020-04-13 21:17:31 UTC</createdTime>
+<ownerDesignName>Homework 03</ownerDesignName>
+<engineerTo>
+<item key="31C4DCBC-922E-9549-2E64-711057636183" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16 CHAR</dataTypeSize>
+<ownDataTypeParameters>16 CHAR,,</ownDataTypeParameters>
+</attribute>
+<attribute name="START TIME" id="6A3E9812-2C70-FEF9-0F62-521472F5EFA8">
+<createdBy>ZZC</createdBy>
+<createdTime>2020-04-13 21:17:47 UTC</createdTime>
+<ownerDesignName>Homework 03</ownerDesignName>
+<engineerTo>
+<item key="31C4DCBC-922E-9549-2E64-711057636183" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+<attribute name="END TIME" id="960E287D-83C4-6D49-D20F-9F3137716A96">
+<createdBy>ZZC</createdBy>
+<createdTime>2020-04-13 21:17:54 UTC</createdTime>
+<ownerDesignName>Homework 03</ownerDesignName>
+<engineerTo>
+<item key="31C4DCBC-922E-9549-2E64-711057636183" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>

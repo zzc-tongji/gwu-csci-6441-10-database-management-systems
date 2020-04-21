@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6BB8ADDB-7339-C0EE-08DE-87DF9A0C082C" name="ENTERTAINER">
+<createdBy>ZZC</createdBy>
+<createdTime>2020-04-13 22:36:27 UTC</createdTime>
+<generatorID>8825E8FC-F8C7-72D9-65AD-A6C009158CF4</generatorID>
+<ownerDesignName>Homework 03</ownerDesignName>
+<ordsAlias>entaintainer</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="4E1DA823-F77F-E38D-FE49-30E38DE93AE0">
+<createdBy>ZZC</createdBy>
+<createdTime>2020-04-13 22:36:27 UTC</createdTime>
+<generatorID>C7C3F3CC-1268-F7F3-B481-9528B900E4EA</generatorID>
+<ownerDesignName>Homework 03</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STAGE_NAME" id="D2DF51D0-5174-B15A-FF37-BDEF6FD2817B">
+<createdBy>ZZC</createdBy>
+<createdTime>2020-04-13 22:36:27 UTC</createdTime>
+<generatorID>F4AB3EA0-66DD-FC96-CD73-E96B5541E71E</generatorID>
+<ownerDesignName>Homework 03</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256 CHAR</dataTypeSize>
+<ownDataTypeParameters>256 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SHORT_BIO" id="1B588C98-500F-1D5D-EF07-B5D104DF8AE3">
+<createdBy>ZZC</createdBy>
+<createdTime>2020-04-13 22:36:27 UTC</createdTime>
+<generatorID>AFA125E6-7152-012F-A7C7-7FDDA83F6437</generatorID>
+<ownerDesignName>Homework 03</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256 CHAR</dataTypeSize>
+<ownDataTypeParameters>256 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRICE" id="E39B5C36-86C6-70CC-0412-697B00C8CB57">
+<createdBy>ZZC</createdBy>
+<createdTime>2020-04-13 22:36:27 UTC</createdTime>
+<generatorID>2E5C7D91-51EB-4F9F-A132-C8F1FB8C9714</generatorID>
+<ownerDesignName>Homework 03</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="APP_USER_ID" id="19EAC6A6-8B77-4845-8281-687C7A5E4EAB">
+<createdBy>ZZC</createdBy>
+<createdTime>2020-04-13 22:36:27 UTC</createdTime>
+<generatorID>75EE5D68-9E5D-C806-DF86-411930F6397C</generatorID>
+<ownerDesignName>Homework 03</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B8F3C8E3-1DB1-B28F-58B8-EFFD5E29F723" referredColumn="9B256B64-1E4D-C860-C9DE-540652CDB520"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F0FED345-23E0-4A6A-C48C-8A1348BBD914" name="ENTERTAINER_PK">
+<createdBy>ZZC</createdBy>
+<createdTime>2020-04-13 22:36:27 UTC</createdTime>
+<generatorID>241AB8BA-0296-05C0-6E55-D5EA3B4A59DF</generatorID>
+<ownerDesignName>Homework 03</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4E1DA823-F77F-E38D-FE49-30E38DE93AE0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="07D91D1A-BDD7-6AEF-0F21-680A12AF99AA" name="ENTAINTAINER__IDX">
+<createdBy>ZZC</createdBy>
+<createdTime>2020-04-13 22:36:27 UTC</createdTime>
+<ownerDesignName>Homework 03</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>1454F803-3D98-3746-0AB7-056504D4C33C</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="19EAC6A6-8B77-4845-8281-687C7A5E4EAB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="12628FEF-D630-2AEA-5800-E414F5EAA478" name="ENTAINTAINER_APP_USER_FK">
+<createdBy>ZZC</createdBy>
+<createdTime>2020-04-13 22:36:27 UTC</createdTime>
+<generatorID>1454F803-3D98-3746-0AB7-056504D4C33C</generatorID>
+<ownerDesignName>Homework 03</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="19EAC6A6-8B77-4845-8281-687C7A5E4EAB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

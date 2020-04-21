@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ENTAINTAINER APP USER FK" directorySegmentName="seg_0" id="1454F803-3D98-3746-0AB7-056504D4C33C">
+<createdBy>ZZC</createdBy>
+<createdTime>2020-04-13 21:27:51 UTC</createdTime>
+<ownerDesignName>Homework 03</ownerDesignName>
+<engineerTo>
+<item key="31C4DCBC-922E-9549-2E64-711057636183" value="true"/>
+</engineerTo>
+<sourcePk>03C5B4D6-0C56-9691-970C-1776B0C613EA</sourcePk>
+<identifying>false</identifying>
+<nameOnTarget>choose</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>DC7BE121-4B23-5107-727B-73EA9E6CEA90</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>8825E8FC-F8C7-72D9-65AD-A6C009158CF4</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

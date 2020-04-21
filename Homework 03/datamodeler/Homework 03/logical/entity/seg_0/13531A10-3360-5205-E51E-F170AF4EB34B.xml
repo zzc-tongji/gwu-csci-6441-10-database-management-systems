@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="13531A10-3360-5205-E51E-F170AF4EB34B" name="ENTERTAINMENT ORDER">
+<createdBy>ZZC</createdBy>
+<createdTime>2020-04-13 21:03:10 UTC</createdTime>
+<ownerDesignName>Homework 03</ownerDesignName>
+<engineerTo>
+<item key="31C4DCBC-922E-9549-2E64-711057636183" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="EC66B1DC-7A6C-369D-4ADE-A7162E38236B">
+<createdBy>ZZC</createdBy>
+<createdTime>2020-04-13 21:03:23 UTC</createdTime>
+<ownerDesignName>Homework 03</ownerDesignName>
+<engineerTo>
+<item key="31C4DCBC-922E-9549-2E64-711057636183" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TYPE" id="D179FB72-6F51-24E6-7CCB-8B1492E929B6">
+<createdBy>ZZC</createdBy>
+<createdTime>2020-04-13 21:03:31 UTC</createdTime>
+<ownerDesignName>Homework 03</ownerDesignName>
+<engineerTo>
+<item key="31C4DCBC-922E-9549-2E64-711057636183" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256 CHAR</dataTypeSize>
+<ownDataTypeParameters>256 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DURATION" id="9B7E7A1E-99B0-76E3-8D27-EE78A907DD83">
+<createdBy>ZZC</createdBy>
+<createdTime>2020-04-13 21:03:37 UTC</createdTime>
+<ownerDesignName>Homework 03</ownerDesignName>
+<engineerTo>
+<item key="31C4DCBC-922E-9549-2E64-711057636183" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ENTERTAINER ID" id="BD78C0A5-B7BF-1BC7-48C1-21CBF24D68B9">
+<createdBy>ZZC</createdBy>
+<createdTime>2020-04-13 21:34:41 UTC</createdTime>
+<generatorID>C1EC834D-952E-7DA5-9DFD-A454397D808C</generatorID>
+<ownerDesignName>Homework 03</ownerDesignName>
+<engineerTo>
+<item key="31C4DCBC-922E-9549-2E64-711057636183" value="true"/>
+</engineerTo>
+<referedAttribute>C7C3F3CC-1268-F7F3-B481-9528B900E4EA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BF1675B4-3167-7D96-A32E-48BE8BF50843" name="ENTERTAINMENT_ORDER_PK">
+<createdBy>ZZC</createdBy>
+<createdTime>2020-04-13 21:03:30 UTC</createdTime>
+<ownerDesignName>Homework 03</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="31C4DCBC-922E-9549-2E64-711057636183" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>EC66B1DC-7A6C-369D-4ADE-A7162E38236B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

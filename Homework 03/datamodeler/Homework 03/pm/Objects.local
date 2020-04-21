@@ -1,0 +1,6 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.process.ProcessModel>
+   <object objectType="InfoStore" objectID="CBFBD58A-1FA3-260A-73A6-DB746B48DE68" name="order" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.process.InfoStore" propertyParentId="547CE877-AC07-264F-4664-F4EE2618C2B3" propertySourceId="" propertyTargetId=""/>
+   <object objectType="InfoStore" objectID="13BF92A9-466F-6A06-5819-DF00047B5AF3" name="pizza" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.process.InfoStore" propertyParentId="547CE877-AC07-264F-4664-F4EE2618C2B3" propertySourceId="" propertyTargetId=""/>
+   <object objectType="InfoStore" objectID="53D14714-7ECF-8358-1093-2C0444370514" name="restaurant" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.process.InfoStore" propertyParentId="547CE877-AC07-264F-4664-F4EE2618C2B3" propertySourceId="" propertyTargetId=""/>
+</oracle.dbtools.crest.model.design.process.ProcessModel>

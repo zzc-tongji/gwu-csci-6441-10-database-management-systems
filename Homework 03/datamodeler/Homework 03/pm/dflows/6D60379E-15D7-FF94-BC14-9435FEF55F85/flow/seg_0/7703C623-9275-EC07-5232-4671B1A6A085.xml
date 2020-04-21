@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Flow class="oracle.dbtools.crest.model.design.process.Flow" name="restaurant detail" directorySegmentName="seg_0" id="7703C623-9275-EC07-5232-4671B1A6A085">
+<createdBy>ZZC</createdBy>
+<createdTime>2020-04-13 18:30:38 UTC</createdTime>
+<ownerDesignName>Homework 03</ownerDesignName>
+<destination>53D14714-7ECF-8358-1093-2C0444370514</destination>
+<logging>false</logging>
+<opCreate>false</opCreate>
+<opDelete>false</opDelete>
+<opRead>false</opRead>
+<opUpdate>false</opUpdate>
+<sourceProcessObject>BBA89A2C-39E8-7DD0-CBBD-4037ECE78BC7</sourceProcessObject>
+<targetProcessObject>53D14714-7ECF-8358-1093-2C0444370514</targetProcessObject>
+</Flow>

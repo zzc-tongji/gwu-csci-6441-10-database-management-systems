@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ORDER ENTERTAINMENT ORDER FK" directorySegmentName="seg_0" id="C48817C2-C06A-2C73-8E5C-EC1B51988FB4">
+<createdBy>ZZC</createdBy>
+<createdTime>2020-04-13 21:35:04 UTC</createdTime>
+<ownerDesignName>Homework 03</ownerDesignName>
+<engineerTo>
+<item key="31C4DCBC-922E-9549-2E64-711057636183" value="true"/>
+</engineerTo>
+<targetPk>BF1675B4-3167-7D96-A32E-48BE8BF50843</targetPk>
+<identifying>false</identifying>
+<nameOnSource>contains</nameOnSource>
+<nameOnTarget>is contained by</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F071E531-C210-7512-DC95-DA659D1AA164</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>13531A10-3360-5205-E51E-F170AF4EB34B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

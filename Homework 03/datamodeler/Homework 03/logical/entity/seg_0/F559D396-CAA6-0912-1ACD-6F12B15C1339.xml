@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F559D396-CAA6-0912-1ACD-6F12B15C1339" name="PIZZA">
+<createdBy>ZZC</createdBy>
+<createdTime>2020-04-13 21:01:05 UTC</createdTime>
+<ownerDesignName>Homework 03</ownerDesignName>
+<engineerTo>
+<item key="31C4DCBC-922E-9549-2E64-711057636183" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="F3927DDA-DDC7-CAAE-9F12-4AE4A209C825">
+<createdBy>ZZC</createdBy>
+<createdTime>2020-04-13 21:01:10 UTC</createdTime>
+<ownerDesignName>Homework 03</ownerDesignName>
+<engineerTo>
+<item key="31C4DCBC-922E-9549-2E64-711057636183" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NAME" id="EA9AB8AD-1DA7-BFEF-2586-E29A0DF65778">
+<createdBy>ZZC</createdBy>
+<createdTime>2020-04-13 21:01:20 UTC</createdTime>
+<ownerDesignName>Homework 03</ownerDesignName>
+<engineerTo>
+<item key="31C4DCBC-922E-9549-2E64-711057636183" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256 CHAR</dataTypeSize>
+<ownDataTypeParameters>256 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CRUST STRUCTURE" id="5D2EA7F4-6E9C-0072-FD99-F2B106754F3B">
+<createdBy>ZZC</createdBy>
+<createdTime>2020-04-13 21:01:23 UTC</createdTime>
+<ownerDesignName>Homework 03</ownerDesignName>
+<engineerTo>
+<item key="31C4DCBC-922E-9549-2E64-711057636183" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256 CHAR</dataTypeSize>
+<ownDataTypeParameters>256 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PRICE" id="4F452195-DFDD-A635-9E5E-8F17C0909AE3">
+<createdBy>ZZC</createdBy>
+<createdTime>2020-04-13 21:01:35 UTC</createdTime>
+<ownerDesignName>Homework 03</ownerDesignName>
+<engineerTo>
+<item key="31C4DCBC-922E-9549-2E64-711057636183" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RESTAURANT ID" id="6C1DCB1C-0A03-E3AE-DA57-5D0B736C345D">
+<createdBy>ZZC</createdBy>
+<createdTime>2020-04-13 21:33:46 UTC</createdTime>
+<generatorID>0142D178-E1A1-C3EB-4582-48B57F8459BF</generatorID>
+<ownerDesignName>Homework 03</ownerDesignName>
+<engineerTo>
+<item key="31C4DCBC-922E-9549-2E64-711057636183" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>A104E6BC-2B7B-C22E-4FCF-EEE198B4B026</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D3E76340-CA75-17EA-5ECA-C4FD2EBCAEF5" name="PIZZA PK">
+<createdBy>ZZC</createdBy>
+<createdTime>2020-04-13 21:01:19 UTC</createdTime>
+<ownerDesignName>Homework 03</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="31C4DCBC-922E-9549-2E64-711057636183" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F3927DDA-DDC7-CAAE-9F12-4AE4A209C825</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

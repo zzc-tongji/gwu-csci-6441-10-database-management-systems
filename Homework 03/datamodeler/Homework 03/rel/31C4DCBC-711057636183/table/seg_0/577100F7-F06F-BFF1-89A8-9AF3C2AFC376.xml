@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="577100F7-F06F-BFF1-89A8-9AF3C2AFC376" name="ISSUE">
+<createdBy>ZZC</createdBy>
+<createdTime>2020-04-13 22:36:27 UTC</createdTime>
+<ownerDesignName>Homework 03</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PIZZA_ID" id="DD86C65C-8D30-E5A3-C938-05290E159F59">
+<createdBy>ZZC</createdBy>
+<createdTime>2020-04-13 22:36:27 UTC</createdTime>
+<ownerDesignName>Homework 03</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="101A2E21-0EB1-11A5-83D9-2A8D6593DD43" referredColumn="B582CD99-E5B3-1696-CCBA-6368B9071D87"/>
+</associations>
+</Column>
+<Column name="PIZZA_ORDER_ID" id="8A8A5971-C616-3F45-2BAF-A4A39D668C85">
+<createdBy>ZZC</createdBy>
+<createdTime>2020-04-13 22:36:27 UTC</createdTime>
+<ownerDesignName>Homework 03</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="54F780E8-9A82-5F2E-06A9-E1283D546CB5" referredColumn="1CDDD035-1397-69B4-FBE0-554F1C1A5959"/>
+</associations>
+</Column>
+<Column name="PIZZA_NUMBER" id="7758CD2F-0EDF-A7C2-C94B-7DAC2DD33654">
+<createdBy>ZZC</createdBy>
+<createdTime>2020-04-13 22:36:27 UTC</createdTime>
+<generatorID>BC5970B2-3EEB-C0F3-AEE7-05FB64E35AF5</generatorID>
+<ownerDesignName>Homework 03</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3500D0B2-A366-6BCE-0322-B3978CD25206" name="ISSUE_PK">
+<createdBy>ZZC</createdBy>
+<createdTime>2020-04-13 22:36:27 UTC</createdTime>
+<ownerDesignName>Homework 03</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DD86C65C-8D30-E5A3-C938-05290E159F59"/>
+<colUsage columnID="8A8A5971-C616-3F45-2BAF-A4A39D668C85"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5F585DF7-5BFC-F294-0E42-ACAFCE63B93E" name="ISSUE_PIZZA_FK">
+<createdBy>ZZC</createdBy>
+<createdTime>2020-04-13 22:36:27 UTC</createdTime>
+<generatorID>ED2A833D-4BE2-94F6-EE5A-DAB7C5872A07</generatorID>
+<ownerDesignName>Homework 03</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DD86C65C-8D30-E5A3-C938-05290E159F59"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="617148F2-A451-0EA9-0AA6-2ADBED4F3536" name="ISSUE_ORDER_FK">
+<createdBy>ZZC</createdBy>
+<createdTime>2020-04-13 22:36:27 UTC</createdTime>
+<generatorID>ED2A833D-4BE2-94F6-EE5A-DAB7C5872A07</generatorID>
+<ownerDesignName>Homework 03</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8A8A5971-C616-3F45-2BAF-A4A39D668C85"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

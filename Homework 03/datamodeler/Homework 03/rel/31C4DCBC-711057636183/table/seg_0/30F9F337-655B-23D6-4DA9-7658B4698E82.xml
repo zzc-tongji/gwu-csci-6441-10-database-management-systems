@@ -1,0 +1,135 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="30F9F337-655B-23D6-4DA9-7658B4698E82" name="PIZZA_ORDER">
+<createdBy>ZZC</createdBy>
+<createdTime>2020-04-13 22:36:27 UTC</createdTime>
+<generatorID>F071E531-C210-7512-DC95-DA659D1AA164</generatorID>
+<ownerDesignName>Homework 03</ownerDesignName>
+<ordsAlias>order</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="1CDDD035-1397-69B4-FBE0-554F1C1A5959">
+<createdBy>ZZC</createdBy>
+<createdTime>2020-04-13 22:36:27 UTC</createdTime>
+<generatorID>75B69315-225E-2684-A750-EA9ADF1BA6EA</generatorID>
+<ownerDesignName>Homework 03</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PLACEMENT_DATETIME" id="507263C3-D42E-6597-A857-E26C9056971D">
+<createdBy>ZZC</createdBy>
+<createdTime>2020-04-13 22:36:27 UTC</createdTime>
+<generatorID>6EDAF39B-CC87-DC63-CDCC-060551CEEAB1</generatorID>
+<ownerDesignName>Homework 03</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LATEST_DELIVERY_DATETIME" id="FE7760AB-60B6-BEDB-3AD1-1221689D928C">
+<createdBy>ZZC</createdBy>
+<createdTime>2020-04-13 22:36:27 UTC</createdTime>
+<generatorID>81DECA97-2278-9349-A6D6-5B4EF141B6D0</generatorID>
+<ownerDesignName>Homework 03</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PEOPLE_NUMBER" id="1B96348C-9908-8CAC-884B-FCFC868D8F9D">
+<createdBy>ZZC</createdBy>
+<createdTime>2020-04-13 22:36:27 UTC</createdTime>
+<generatorID>C15BC47F-8B94-9A28-B182-52F3181F4687</generatorID>
+<ownerDesignName>Homework 03</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ENTERTAINMENT_ORDER_ID" id="109CEC7F-0A78-75BB-B725-A5C36E3F7DA6">
+<createdBy>ZZC</createdBy>
+<createdTime>2020-04-13 22:36:27 UTC</createdTime>
+<generatorID>8604B719-9A96-6EE4-43C8-EE6C542EAAC6</generatorID>
+<ownerDesignName>Homework 03</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8E196E87-2A03-BC4B-CA2F-853940E148FC" referredColumn="0716C4DE-F760-5189-8535-4D2B8F998585"/>
+</associations>
+</Column>
+<Column name="HUNGRY_CUSTOMER_ID" id="2ADC443E-49D8-1F80-5E5A-ABE60F64F0B7">
+<createdBy>ZZC</createdBy>
+<createdTime>2020-04-13 22:36:27 UTC</createdTime>
+<generatorID>F6C94333-50A5-0990-82D6-461AA5AB5B0D</generatorID>
+<ownerDesignName>Homework 03</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8F5D7E54-0D5A-FDCD-143A-77DBC945B109" referredColumn="BBFCCB68-3C1B-4CAD-3D3C-FB02E0D84606"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="77E035D1-7F98-5D5F-6C59-733C6ED55FF0" name="PIZZA_ORDER_PK">
+<createdBy>ZZC</createdBy>
+<createdTime>2020-04-13 22:36:27 UTC</createdTime>
+<generatorID>C3D11AD8-331E-A7F6-E94A-DD8F0E3E0A4D</generatorID>
+<ownerDesignName>Homework 03</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1CDDD035-1397-69B4-FBE0-554F1C1A5959"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D69B8977-B50B-721A-C608-A855A99CF4B4" name="ORDER__IDX">
+<createdBy>ZZC</createdBy>
+<createdTime>2020-04-13 22:36:27 UTC</createdTime>
+<ownerDesignName>Homework 03</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>C48817C2-C06A-2C73-8E5C-EC1B51988FB4</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="109CEC7F-0A78-75BB-B725-A5C36E3F7DA6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4535A9E0-41FE-957B-E74B-FD92966B942C" name="ORDER_ENTERTAINMENT_ORDER_FK">
+<createdBy>ZZC</createdBy>
+<createdTime>2020-04-13 22:36:27 UTC</createdTime>
+<generatorID>C48817C2-C06A-2C73-8E5C-EC1B51988FB4</generatorID>
+<ownerDesignName>Homework 03</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="109CEC7F-0A78-75BB-B725-A5C36E3F7DA6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="95A8164A-3FB7-73CA-2F2B-FDBA5C0376BA" name="ORDER_HUNGRY_CUSTOMER_FK">
+<createdBy>ZZC</createdBy>
+<createdTime>2020-04-13 22:36:27 UTC</createdTime>
+<generatorID>361E3D0E-7213-9F81-52BD-4144EFC21514</generatorID>
+<ownerDesignName>Homework 03</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2ADC443E-49D8-1F80-5E5A-ABE60F64F0B7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

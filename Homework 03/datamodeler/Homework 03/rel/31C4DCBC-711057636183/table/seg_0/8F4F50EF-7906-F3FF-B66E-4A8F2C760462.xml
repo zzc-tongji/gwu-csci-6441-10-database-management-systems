@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8F4F50EF-7906-F3FF-B66E-4A8F2C760462" name="HUNGRY_CUSTOMER">
+<createdBy>ZZC</createdBy>
+<createdTime>2020-04-13 22:36:27 UTC</createdTime>
+<generatorID>A8F5152B-8816-B7E1-AFCF-3AEA80E944E0</generatorID>
+<ownerDesignName>Homework 03</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="BBFCCB68-3C1B-4CAD-3D3C-FB02E0D84606">
+<createdBy>ZZC</createdBy>
+<createdTime>2020-04-13 22:36:27 UTC</createdTime>
+<generatorID>6674B418-DED4-EC3E-0C7E-75719AB2827C</generatorID>
+<ownerDesignName>Homework 03</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DELIVERY_DETAIL_ADDRESS" id="72C95689-7646-1812-3D96-FD7873DD2BDC">
+<createdBy>ZZC</createdBy>
+<createdTime>2020-04-13 22:36:27 UTC</createdTime>
+<generatorID>82FAA0E5-6EB0-F20C-6BB1-02E10D7C5BA8</generatorID>
+<ownerDesignName>Homework 03</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256 CHAR</dataTypeSize>
+<ownDataTypeParameters>256 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DELIVERY_ZIP_CODE" id="F7817B1F-8A21-4526-0550-3DCBAB6824CB">
+<createdBy>ZZC</createdBy>
+<createdTime>2020-04-13 22:36:27 UTC</createdTime>
+<generatorID>0189B671-CB46-153D-9282-79B47E7C52ED</generatorID>
+<ownerDesignName>Homework 03</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16 CHAR</dataTypeSize>
+<ownDataTypeParameters>16 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="APP_USER_ID" id="258E76F0-9C33-2931-8996-859E7ED4A2AD">
+<createdBy>ZZC</createdBy>
+<createdTime>2020-04-13 22:36:27 UTC</createdTime>
+<generatorID>7CD8CAB6-79D5-DD64-D4A4-F49C5496DC50</generatorID>
+<ownerDesignName>Homework 03</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="60EA0A80-68A8-087F-766A-C5F8E8B9541A" referredColumn="9B256B64-1E4D-C860-C9DE-540652CDB520"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8ED67A84-F17A-8CB7-0883-39F381E3CE01" name="HUNGRY_CUSTOMER_PK">
+<createdBy>ZZC</createdBy>
+<createdTime>2020-04-13 22:36:27 UTC</createdTime>
+<generatorID>D0990B51-F4F3-7AEF-B5DA-705DA9F33B9C</generatorID>
+<ownerDesignName>Homework 03</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BBFCCB68-3C1B-4CAD-3D3C-FB02E0D84606"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AAE47E0A-4B25-8620-E8C7-1886DA27ECAD" name="HUNGRY_CUSTOMER__IDX">
+<createdBy>ZZC</createdBy>
+<createdTime>2020-04-13 22:36:27 UTC</createdTime>
+<ownerDesignName>Homework 03</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>EDF4EAA4-C12B-5B2E-E553-C87DDB51C3CC</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="258E76F0-9C33-2931-8996-859E7ED4A2AD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="16ADDE66-D015-E6AE-6117-A8ABE5E4E13B" name="HUNGRY_CUSTOMER_APP_USER_FK">
+<createdBy>ZZC</createdBy>
+<createdTime>2020-04-13 22:36:27 UTC</createdTime>
+<generatorID>EDF4EAA4-C12B-5B2E-E553-C87DDB51C3CC</generatorID>
+<ownerDesignName>Homework 03</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="258E76F0-9C33-2931-8996-859E7ED4A2AD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

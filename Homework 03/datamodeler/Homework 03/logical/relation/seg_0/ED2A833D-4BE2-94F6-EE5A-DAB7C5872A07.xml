@@ -1,0 +1,34 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ISSUE" directorySegmentName="seg_0" id="ED2A833D-4BE2-94F6-EE5A-DAB7C5872A07">
+<createdBy>ZZC</createdBy>
+<createdTime>2020-04-13 21:22:44 UTC</createdTime>
+<ownerDesignName>Homework 03</ownerDesignName>
+<engineerTo>
+<item key="31C4DCBC-922E-9549-2E64-711057636183" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<nameOnSource>issues</nameOnSource>
+<nameOnTarget>is issued by</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>F559D396-CAA6-0912-1ACD-6F12B15C1339</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>F071E531-C210-7512-DC95-DA659D1AA164</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="PIZZA NUMBER" id="BC5970B2-3EEB-C0F3-AEE7-05FB64E35AF5">
+<createdBy>ZZC</createdBy>
+<createdTime>2020-04-13 21:23:22 UTC</createdTime>
+<ownerDesignName>Homework 03</ownerDesignName>
+<engineerTo>
+<item key="31C4DCBC-922E-9549-2E64-711057636183" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>
