@@ -646,15 +646,15 @@ SELECT c.NAME, c.SEX, a.LATEST_DELIVERY_DATETIME, a.PEOPLE_NUMBER, e.STAGE_NAME,
 
 Result:
 
-![Retrieve 1](./Retrieve 1.png)
+![Retrieve 1](./Retrieve%201.png)
 
-![Retrieve 2](./Retrieve 2.png)
+![Retrieve 2](./Retrieve%202.png)
 
-![Retrieve 3](./Retrieve 3.png)
+![Retrieve 3](./Retrieve%203.png)
 
-![Retrieve 4](./Retrieve 4.png)
+![Retrieve 4](./Retrieve%204.png)
 
-![Retrieve 5](./Retrieve 5.png)
+![Retrieve 5](./Retrieve%205.png)
 
 <div style="page-break-after: always;"></div>
 
